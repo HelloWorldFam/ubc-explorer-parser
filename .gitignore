@@ -3,3 +3,4 @@ dist/req.js
 req.json
 data/
 *.log
+/venv
