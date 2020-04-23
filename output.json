@@ -1,4 +1,4 @@
-const array = [
+[
   {},
   {},
   {
@@ -36872,4 +36872,4 @@ const array = [
     "cred": "3",
     "desc": "Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Final work term assignment required. Restricted to students admitted to the Co-operative Education Program in Forest Bioeconomy Sciences and Technology."
   }
-];
+]
