@@ -67,9 +67,12 @@ def translate(url, out):
                     else:
                         cred = ', '.join([str(x) for x in range(
                             *map(int, cred.split('-')))])
+
                 elif '/' in cred:
                     cred = ', '.join(cred.split('/'))
-                outfile.write('\n\ncode: ' + code)
+                dept = code.split(" ")
+                outfile.write('\n\ndept: ' + dept[0])
+                outfile.write('\ncode: ' + code)
                 outfile.write('\nname: ' + name)
                 outfile.write('\ncred: ' + cred)
 
