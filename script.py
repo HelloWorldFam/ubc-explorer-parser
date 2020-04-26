@@ -77,17 +77,66 @@ def parsePrereqs():
 
     for course in data:
         if "preq" in course:
-            course["preq"] = re.findall(r'[A-Z]*\s\d{3}', course["preq"])
+            course["preq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["preq"])
         if "creq" in course:
-            course["creq"] = re.findall(r'[A-Z]*\s\d{3}', course["creq"])
+            course["creq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["creq"])
 
     f.close()
     res = open(jsonOut + "/" + "parsed.json", "w")
     res.write(json.dumps(data))
     res.close()
+
+def getDependencies():
+    f = open(jsonOut + "/" + "parsed.json", "r")
+    data = json.load(f)
+
+    for course in data:
+        for course2 in data:
+            if "preq" in course2:
+                if course["code"] in course2["preq"]:
+                    if not "depn" in course:
+                        course["depn"] = []
+                    course["depn"].append(course2["code"])
+
+    f.close()
+    res = open(jsonOut + "/" + "depend.json", "w")
+    res.write(json.dumps(data))
+    res.close()
+
+def getCodesForDepts():
+    depts = open(jsonOut + "/" + "depts.json", "r")
+    courses = open(jsonOut + "/" + "parsed.json", "r")
+
+    deptData = json.load(depts)
+    courseData = json.load(courses)
+
+    result = []
+
+    for dept in deptData:
+        newDept = {}
+        newDept["dept"] = dept["dept"]
+        newDept["courses"] = []
+        for course in courseData:
+            if course["dept"] == dept["dept"]:
+                newDept["courses"].append(course["code"])
+        result.append(newDept.copy())
     
-# # call to method
+    for dept in result:
+        codesOnly = []
+        for course in dept["courses"]:
+            x = course.split(' ')
+            codesOnly.append(x[1])
+        dept["courses"] = codesOnly
+
+    res = open(jsonOut + "/" + "deptCodes.json", "w")
+    res.write(json.dumps(result))
+    res.close()
+
+    
+# call to method
 scriptFile()
 creditsToInt()
 deptCodesJson()
 parsePrereqs()
+# getDependencies()
+getCodesForDepts()
