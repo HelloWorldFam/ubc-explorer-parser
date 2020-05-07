@@ -3,7 +3,6 @@
 Steps to generate JSON output for use with UBC Explorer site: 
 - follow eyqs's instructions below on how to get req running
 - make sure your Python environment is set up properly
-- copy the req.py file into scrapers/ubc
 - run ubcalend_txt.py
 - run ubcexplorerscript.py
 
