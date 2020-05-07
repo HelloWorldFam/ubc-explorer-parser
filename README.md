@@ -1,3 +1,12 @@
+# Using req with UBC Explorer
+
+Steps to generate JSON output for use with UBC Explorer site: 
+- follow eyqs's instructions below on how to get req running
+- make sure your Python environment is set up properly
+- copy the req.py file into scrapers/ubc
+- run ubcalend_txt.py
+- run ubcexplorerscript.py
+
 # req
 
 req is a simple program that shows you trees of course prereqs and coreqs.
@@ -7,7 +16,7 @@ Check it out live at <https://eyqs.ca/tools/req/>, or install it locally.
 
 ### Requirements
 
-- Python 3.6 (does not work with Python 3.5 or lower)
+- Python 3.6+ (does not work with Python 3.5 or lower)
 - pip3 (included with Python 3)
 - virtualenvwrapper (`pip install virtualenvwrapper`)
 - Node.js
