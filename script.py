@@ -1,19 +1,25 @@
 import json
 import os
 import re
+from operator import itemgetter
 
-# Script for putting file data into array
-# https://pastebin.com/trCTwA6U
-# https://kaijento.github.io/2017/04/09/python-convert-a-text-file-into-a-dict/
-
-directory = '/Users/scottking/Documents/req/data/ubc/2018/courses'
-jsonOut = '/Users/scottking/Documents/req/data/ubc/2018/json-output'
+## change these for your own machine - relative paths are finnicky for python scripts. 
+directory = '/Users/scottking/Documents/req/data/ubc/2020/courses'
+jsonOut = '/Users/scottking/Documents/req/data/ubc/2020/json-output'
 
 courses_array = []
 course = {}
 
-def scriptFile():
-    newfile = open(jsonOut + '/' + "output.json", "w")
+## REQUIRES: ubcalend_txt.py to already have generated the .txt files
+## EFFECTS: 
+## OUTPUT:   output.json
+def generate_json_array():
+    try:
+         newfile = open(jsonOut + '/' + "output.json", "w")
+    except:
+        os.mkdir(jsonOut)
+        newfile = open(jsonOut + '/' + "output.json", "w")
+
     for file in os.listdir(directory):
         f = open(directory + '/' + str(file), "r")
 
@@ -29,12 +35,17 @@ def scriptFile():
                 continue
 
     newfile.write(json.dumps(courses_array))
-    newfile.close()  # close the file after we are done writing
+    newfile.close() 
 
-
+## this is used in credits_to_int() and dept_codes_to_json() - don't remove
 codes = []
 
-def creditsToInt():
+
+## REQUIRES: jsonOut directory to be present and ubcalend_txt.py to already have generated the .txt files 
+##           generate_json_array() must run before this function
+## EFFECTS:  if single credit is specified in course["cred"], convert to int, otherwise set course["cred"] to null
+## OUTPUT:   output.json (modified)
+def credits_to_int():
     f = open(jsonOut + "/" + "output.json", "r")
     data = json.load(f)
     for course in data:
@@ -49,11 +60,16 @@ def creditsToInt():
     res.close()
 
 
+## global variables for use in dept_codes_to_json
 codeSet = set()
 deptJson = {}
 deptArray = []
 
-def deptCodesJson():
+## REQUIRES: jsonOut directory to be present and ubcalend_txt.py to already have generated the .txt files 
+##           generate_json_array() must run before this function
+## EFFECTS:  creates a depts.json file with list of all deparments in alphabetical order (not for use with UBC Explorer)
+## OUTPUT:   depts.json
+def dept_codes_to_json():
     for dept in codes:
         codeSet.add(dept)
 
@@ -71,7 +87,13 @@ def deptCodesJson():
     newfile.write(json.dumps(deptArray))
 
 
-def parsePrereqs():
+## REQUIRES: jsonOut directory to be present and ubcalend_txt.py to already have generated the .txt files 
+##           generate_json_array() must run before this function
+## EFFECTS:  parses course["preq"] and course["creq"] fields in output.json and extracts strings with 
+##           3+ capital letters and 3 consecutive digits into an array and replaces the course["preq"] and 
+##           course["creq"] field with respective arrays
+## OUTPUT:   prereqs.json
+def parse_prereqs():
     f = open(jsonOut + "/" + "output.json", "r")
     data = json.load(f)
 
@@ -82,12 +104,17 @@ def parsePrereqs():
             course["creq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["creq"])
 
     f.close()
-    res = open(jsonOut + "/" + "parsed.json", "w")
+    res = open(jsonOut + "/" + "prereqs.json", "w")
     res.write(json.dumps(data))
     res.close()
 
-def getDependencies():
-    f = open(jsonOut + "/" + "parsed.json", "r")
+## REQUIRES: jsonOut directory to be present and prereqs.json to have been generated 
+##           parse_prereqs() must run before this function
+## EFFECTS:  for each course, looks for that course code in all of the courses' prerequisite arrays.
+##           if match found, add to current course's course["depn"] array
+## OUTPUT:   final_courses.json (this is the one that gets imported to UBC Explorer)
+def get_dependencies():
+    f = open(jsonOut + "/" + "prereqs.json", "r")
     data = json.load(f)
 
     for course in data:
@@ -99,13 +126,19 @@ def getDependencies():
                     course["depn"].append(course2["code"])
 
     f.close()
-    res = open(jsonOut + "/" + "depend.json", "w")
+    res = open(jsonOut + "/" + "final_courses.json", "w")
     res.write(json.dumps(data))
     res.close()
 
-def getCodesForDepts():
+## REQUIRES: jsonOut directory to be present and prereqs.json and depts.json to have been generated 
+##           parse_prereqs() must run before this function
+##           dept_codes_to_json() must run before this function
+## EFFECTS:  generates json array of all departments and their respective course codes 
+##           (not used with UBC Explorer)
+## OUTPUT:   final_dept_codes.json 
+def get_codes_for_depts():
     depts = open(jsonOut + "/" + "depts.json", "r")
-    courses = open(jsonOut + "/" + "parsed.json", "r")
+    courses = open(jsonOut + "/" + "prereqs.json", "r")
 
     deptData = json.load(depts)
     courseData = json.load(courses)
@@ -128,15 +161,58 @@ def getCodesForDepts():
             codesOnly.append(x[1])
         dept["courses"] = codesOnly
 
-    res = open(jsonOut + "/" + "deptCodes.json", "w")
+    res = open(jsonOut + "/" + "final_dept_codes.json", "w")
     res.write(json.dumps(result))
     res.close()
 
+
+## REQUIRES: jsonOut directory to be present and prereqs.json and depts.json to have been generated 
+##           parse_prereqs() must run before this function
+##           dept_codes_to_json() must run before this function
+## EFFECTS:  generates json array of all course codes (not used with UBC Explorer)
+## OUTPUT:   course_codes.json
+def generate_course_codes():
+    courses = open(jsonOut + "/" + "prereqs.json", "r")
+    data = json.load(courses)
+    course_array = []
+    for course in data:
+        new_course = {}
+        new_course["name"] = course["code"]
+        course_array.append(new_course.copy())
+        new_course.clear()
     
-# call to method
-scriptFile()
-creditsToInt()
-deptCodesJson()
-parsePrereqs()
-# getDependencies()
-getCodesForDepts()
+    course_array.sort(key=itemgetter("name"))
+
+    res = open(jsonOut + "/" + "course_codes.json", "w")
+    res.write(json.dumps(course_array))
+    res.close()
+
+
+## REQUIRES: jsonOut directory to be present and prereqs.json and depts.json to have been generated 
+##           parse_prereqs() must run before this function
+##           dept_codes_to_json() must run before this function
+## EFFECTS:  adds a field with all the UBC Courses URLs associated with each course (not used with UBC Explorer)
+## OUTPUT:   with-links.json
+def generage_ubc_courses_links():
+    courses = open(jsonOut + "/" + "prereqs.json", "r")
+    data = json.load(courses)
+    course_array = []
+    for course in data:
+        code = course["code"].split(" ")
+        course["link"] = "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=" + code[0] + "&course=" + code[1]
+        course_array.append(course.copy())
+    
+    res = open(jsonOut + "/" + "with-links.json", "w")
+    res.write(json.dumps(course_array))
+    res.close()
+    
+
+# call to functions (comment any out that you don't want to run)
+generate_json_array()
+credits_to_int()
+dept_codes_to_json()
+parse_prereqs()
+get_dependencies() ## this is the final file we use with UBC Explorer
+get_codes_for_depts()
+generate_course_codes()
+generage_ubc_courses_links()

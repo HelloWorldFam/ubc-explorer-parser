@@ -17,6 +17,9 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 
+## This script will parse the data into individual JSON files. You probably don't want to 
+## run this script if you're scraping data for UBC Explorer!
+
 import req
 import urllib.request
 import json
