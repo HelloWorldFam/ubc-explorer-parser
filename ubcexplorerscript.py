@@ -117,7 +117,7 @@ def parse_prereqs():
 ##           parse_prereqs() must run before this function
 ## EFFECTS:  for each course, looks for that course code in all of the courses' prerequisite arrays.
 ##           if match found, add to current course's course["depn"] array
-## OUTPUT:   final_courses.json (this is the one that gets imported to UBC Explorer)
+## OUTPUT:   final_courses.json (not used with UBC Explorer)
 def get_dependencies():
     f = open(json_output_directory + "/" + "prereqs.json", "r")
     data = json.load(f)
@@ -197,10 +197,10 @@ def generate_course_codes():
 ## REQUIRES: jsonOut directory to be present and prereqs.json and depts.json to have been generated 
 ##           parse_prereqs() must run before this function
 ##           dept_codes_to_json() must run before this function
-## EFFECTS:  adds a field with all the UBC Courses URLs associated with each course (not used with UBC Explorer)
-## OUTPUT:   with-links.json
+## EFFECTS:  adds a field with all the UBC Courses URLs associated with each course 
+## OUTPUT:   with-links.json (this is the one that gets imported to UBC Explorer)
 def generage_ubc_courses_links():
-    courses = open(json_output_directory + "/" + "prereqs.json", "r")
+    courses = open(json_output_directory + "/" + "final_courses.json", "r")
     data = json.load(courses)
     course_array = []
     for course in data:
@@ -218,7 +218,7 @@ generate_json_array()
 credits_to_int()
 dept_codes_to_json()
 parse_prereqs()
-get_dependencies() ## this is the final file we use with UBC Explorer
+get_dependencies() 
 get_codes_for_depts()
 generate_course_codes()
-generage_ubc_courses_links()
+generage_ubc_courses_links() ## this is the final file we use with UBC Explorer
