@@ -2,6 +2,26 @@ import re
 from ubcalend_txt import Scraper
 
 class UBCExplorerScript:
+    # converts output from ubcalend_txt script to list of dicts
+    # returns list of dicts (json array) that represent courses
+    def __convert_calend_data_to_dict__(self, calendar_data):
+        courses_array = []
+        course = {}
+
+        for line in calendar_data:
+            if len(line) > 3 and line != 'newline':
+                key, value = line.rstrip().split(': ', 1)
+                course[key] = value.strip()
+                
+            elif line == 'newline':
+                if course:
+                    courses_array.append(course.copy())
+                course.clear()
+                continue
+        
+        return courses_array
+
+
     # for a given course, converts the credits value from string to integer
     # returns the modified course
     def __credits_to_int__(self, course):
@@ -48,20 +68,7 @@ class UBCExplorerScript:
     # generates final list of course objects to be uploaded to mongo
     # returns final course array
     def __generate_json_array__(self, calendar_data):
-        courses_array = []
-        course = {}
-
-        for line in calendar_data:
-            if len(line) > 3 and line != 'newline':
-                key, value = line.rstrip().split(': ', 1)
-                course[key] = value.strip()
-                
-            elif line == 'newline':
-                if course:
-                    courses_array.append(course.copy())
-                course.clear()
-                continue
-
+        courses_array = self.__convert_calend_data_to_dict__(calendar_data)
         courses_array = [self.__credits_to_int__(course) for course in courses_array]
         courses_array = [self.__parse_prereqs__(course) for course in courses_array]
         courses_array = self.__get_dependencies__(courses_array)
