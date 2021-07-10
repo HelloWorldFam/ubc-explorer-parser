@@ -8,3 +8,5 @@ def main(event, context):
     ubcexplorerscriptobj = UBCExplorerScript()
     data = ubcexplorerscriptobj.main()
     return data
+
+main(None, None)

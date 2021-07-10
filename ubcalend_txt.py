@@ -106,6 +106,8 @@ class Scraper:
                 #     or (creq and any(x in creq for x in ['.', ':', ';']))):
                     # with open(LOGFILE, 'a', encoding='utf8') as logfile:
                     #     logfile.write(hascode + ', ')
+            else:
+                output.append('newline')
         return output
 
 
@@ -218,5 +220,4 @@ class Scraper:
             if '<tr class="row-highlight"' in department:
                 dept = department.split('=')[4].split("'")[0]
                 final = final + self.__translate__(f'http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code={dept}')
-                final.append('newline')
         return final

@@ -6,9 +6,6 @@ class UBCExplorerScript:
         courses_array = []
         course = {}
         codes = []
-        codeSet = set()
-        deptJson = {}
-        deptArray = []
 
         for line in calendar_data:
             if len(line) > 3 and line != 'newline':
@@ -29,22 +26,7 @@ class UBCExplorerScript:
             
             if "dept" in course:
                 codes.append(course["dept"])
-        
-        for dept in codes:
-            codeSet.add(dept)
-
-        array = []
-
-        for code in codeSet:
-            array.append(code)
-        
-        array.sort()
-
-        for dept in array:
-            deptJson["dept"] = dept
-            deptArray.append(deptJson.copy())
-            deptJson.clear()
-
+                
         for course in courses_array:
             if "preq" in course:
                 course["preq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["preq"])
