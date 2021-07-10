@@ -2,6 +2,11 @@ import re
 from ubcalend_txt import Scraper
 
 class UBCExplorerScript:
+    def __get_course_links__(self, course):
+        code = course["code"].split(" ")
+        course["link"] = "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=" + code[0] + "&course=" + code[1]
+        return course
+
     def __generate_json_array__(self, calendar_data):
         courses_array = []
         course = {}
@@ -26,7 +31,7 @@ class UBCExplorerScript:
             
             if "dept" in course:
                 codes.append(course["dept"])
-                
+
         for course in courses_array:
             if "preq" in course:
                 course["preq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["preq"])
@@ -41,14 +46,7 @@ class UBCExplorerScript:
                             course["depn"] = []
                         course["depn"].append(course2["code"])
 
-        course_array = []
-
-        for course in courses_array:
-            code = course["code"].split(" ")
-            course["link"] = "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=" + code[0] + "&course=" + code[1]
-            course_array.append(course.copy())
-
-        return course_array
+        return [self.__get_course_links__(course) for course in courses_array]
         
 
     def main(self):
