@@ -29,6 +29,7 @@ class UBCExplorerScript:
                         course["depn"].append(course2["code"])
         return courses_array
 
+
     def __get_course_links__(self, course):
         code = course["code"].split(" ")
         course["link"] = "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=" + code[0] + "&course=" + code[1]
