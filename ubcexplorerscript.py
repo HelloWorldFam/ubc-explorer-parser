@@ -32,7 +32,7 @@ class UBCExplorerScript:
 
     def __get_course_links__(self, course):
         code = course["code"].split(" ")
-        course["link"] = "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=" + code[0] + "&course=" + code[1]
+        course["link"] = f"https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept={code[0]}&course={code[1]}"
         return course
 
 
