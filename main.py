@@ -5,3 +5,5 @@
 from ubcexplorerscript import UBCExplorerScript
 
 ubcexplorerscriptobj = UBCExplorerScript()
+data = ubcexplorerscriptobj.main()
+print(data)
