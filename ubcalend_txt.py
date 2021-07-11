@@ -32,7 +32,7 @@ import urllib.request
 
 class Scraper:
     # Translate a file into a format that req can parse
-    def __translate__(self, url):
+    def __translate(self, url):
         html = urllib.request.urlopen(url)
         # Skip all lines before the actual course list
         for byte in html:
@@ -95,12 +95,12 @@ class Scraper:
                         # Remove leading '/em> ' and trailing periods
                         preq_raw = split[i+1][5:]
                         output.append('prer: ' + preq_raw)
-                        preq = self.__parse_reqs__(preq_raw.strip('.'))
+                        preq = self.__parse_reqs(preq_raw.strip('.'))
                         output.append('preq: ' + preq)
                     elif 'em>Corequisite:' in split[i]:
                         creq_raw = split[i+1][5:]
                         output.append('crer: ' + creq_raw)
-                        creq = self.__parse_reqs__(creq_raw.strip('.'))
+                        creq = self.__parse_reqs(creq_raw.strip('.'))
                         output.append('creq: ' + creq)
                 # if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
                 #     or (creq and any(x in creq for x in ['.', ':', ';']))):
@@ -117,7 +117,7 @@ class Scraper:
     #   - clause + or + course  'CPSC 210, CPSC 260 or EECE 256'
     # Return a list of only courses:
     # ['CPSC 110'] ['CPSC 213', 'CPSC 221'] ['CPSC 210', 'CPSC 260', 'EECE 256']
-    def __parse_clause__(self, terms):
+    def __parse_clause(self, terms):
         parsed = []
         course = [] # The current course code
         for term in terms:
@@ -142,17 +142,17 @@ class Scraper:
     #   - one of + clause 'One of CPSC 313, EECE 315, CPEN 331'
     # Return a string of courses connected by the appropriate boolean:
     # 'APSC 160' '(CPSC 260 and EECE 320)' '(CPSC 313 or EECE 315 or CPEN 331)'
-    def __parse_phrase__(self, terms):
+    def __parse_phrase(self, terms):
         if len(terms) < 2:  # Single course and cannot access terms[1]
-            return ' '.join(self.__parse_clause__(terms))
+            return ' '.join(self.__parse_clause(terms))
         elif terms[0].lower() == 'one' and terms[1].lower() == 'of':
-            return '(' + ' or '.join(self.__parse_clause__(terms[2:])) + ')'
+            return '(' + ' or '.join(self.__parse_clause(terms[2:])) + ')'
         elif terms[0].lower() == 'all' and terms[1].lower() == 'of':
-            return '(' + ' and '.join(self.__parse_clause__(terms[2:])) + ')'
+            return '(' + ' and '.join(self.__parse_clause(terms[2:])) + ')'
         elif 'or' in terms:
-            return '(' + ' or '.join(self.__parse_clause__(terms)) + ')'
+            return '(' + ' or '.join(self.__parse_clause(terms)) + ')'
         else:   # Single course, no parentheses needed
-            return ' '.join(self.__parse_clause__(terms))
+            return ' '.join(self.__parse_clause(terms))
 
 
     # Parse the reqs, which are:
@@ -160,7 +160,7 @@ class Scraper:
     #   - reqs + and + phrase
     #   - either (a) + phrase + or (b) + phrase + or (c) + phrase...
     # Return a string that can be properly processed by req.
-    def __parse_reqs__(self, reqs):
+    def __parse_reqs(self, reqs):
         terms = reqs.split()
         parsed = []
         either = [] # The current strings in the either expression
@@ -172,12 +172,12 @@ class Scraper:
             if terms[i].lower() == 'and':
                 # 'and' signals the end of an either expression
                 if either:  # Add last phrase, join them, and reset either
-                    either.append(self.__parse_phrase__(terms[flag:i]))
+                    either.append(self.__parse_phrase(terms[flag:i]))
                     parsed.append('(' + ' or '.join(either) + ')')
                     either = []
                 # Otherwise, 'and' signals the end of a phrase
                 else:
-                    parsed.append(self.__parse_phrase__(terms[flag:i]))
+                    parsed.append(self.__parse_phrase(terms[flag:i]))
                 # Last phrase has been processed, next phrase starts after 'and'
                 flag = i+1
             # Parentheses around a single character signal
@@ -186,18 +186,18 @@ class Scraper:
                 len(terms[i]) == 3):
                 # 'or' signals the end of a phrase, but that's before '(a)'
                 if terms[i-1].lower() == 'or':  # Therefore -1
-                    either.append(self.__parse_phrase__(terms[flag:i-1]))
+                    either.append(self.__parse_phrase(terms[flag:i-1]))
                 # Last phrase has been processed, next phrase starts after '(a)'
                 flag = i+1
             i += 1
 
         # End of input signals the end of an either expression
         if either:
-            either.append(self.__parse_phrase__(terms[flag:]))
+            either.append(self.__parse_phrase(terms[flag:]))
             parsed.append('(' + ' or '.join(either) + ')')
         # Otherwise, end of input signals the end of a phrase
         else:
-            parsed.append(self.__parse_phrase__(terms[flag:]))
+            parsed.append(self.__parse_phrase(terms[flag:]))
         # Remove parentheses around single phrases
         if len(parsed) == 1 and parsed[0][0] == '(' and parsed[0][-1] == ')':
             return parsed[0][1:-1]
@@ -219,5 +219,5 @@ class Scraper:
             department = line.decode('UTF-8', 'backslashreplace')
             if '<tr class="row-highlight"' in department:
                 dept = department.split('=')[4].split("'")[0]
-                final = final + self.__translate__(f'http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code={dept}')
+                final = final + self.__translate(f'http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code={dept}')
         return final
