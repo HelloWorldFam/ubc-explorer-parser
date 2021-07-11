@@ -1,10 +1,11 @@
 import re
+from typing import List
 from ubcalend_txt import Scraper
 
 class UBCExplorerScript:
     # converts output from ubcalend_txt script to list of dicts
     # returns list of dicts (json array) that represent courses
-    def __convert_calend_data_to_dict__(self, calendar_data):
+    def __convert_calend_data_to_dict__(self, calendar_data: List[str]) -> List[dict]:
         courses_array = []
         course = {}
 
@@ -24,7 +25,7 @@ class UBCExplorerScript:
 
     # for a given course, converts the credits value from string to integer
     # returns the modified course
-    def __credits_to_int__(self, course):
+    def __credits_to_int__(self, course: dict) -> dict:
         if "cred" in course and len(course["cred"]) == 1:
             course["cred"] = int(course["cred"])
         else:
@@ -32,9 +33,9 @@ class UBCExplorerScript:
         return course
 
 
-    # finds the prereqs and coreqs in a given course and adds them to corresponding list in course object
+    # converts a given course's prereq/coreq description into a list of course codes
     # returns the modified course
-    def __parse_prereqs__(self, course):
+    def __parse_prereqs__(self, course: dict) -> dict:
         if "preq" in course:
             course["preq"] = re.findall(r'[A-Z]*\s\d{3}[A-Z]*', course["preq"])
         if "creq" in course:
@@ -45,7 +46,7 @@ class UBCExplorerScript:
     # for each course in the course array, search for all instances where the current course is a prereq for another course
     # then adds courses found to the 'depn' array which represents the list of dependencies for that course
     # returns the modified course array
-    def __get_dependencies__(self, unprocessed):
+    def __get_dependencies__(self, unprocessed: List[dict]) -> List[dict]:
         courses_array = unprocessed.copy()
         for course in courses_array:
             for course2 in courses_array:
@@ -59,7 +60,7 @@ class UBCExplorerScript:
 
     # attaches a link to the SSC course page to each of the courses
     # returns the modified course
-    def __get_course_links__(self, course):
+    def __get_course_links__(self, course: dict) -> dict:
         code = course["code"].split(" ")
         course["link"] = f"https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept={code[0]}&course={code[1]}"
         return course
@@ -67,7 +68,7 @@ class UBCExplorerScript:
 
     # generates final list of course objects to be uploaded to mongo
     # returns final course array
-    def __generate_json_array__(self, calendar_data):
+    def __generate_json_array__(self, calendar_data: List[str]) -> List[dict]:
         courses_array = self.__convert_calend_data_to_dict__(calendar_data)
         courses_array = [self.__credits_to_int__(course) for course in courses_array]
         courses_array = [self.__parse_prereqs__(course) for course in courses_array]
@@ -75,7 +76,7 @@ class UBCExplorerScript:
         return [self.__get_course_links__(course) for course in courses_array]
         
 
-    def main(self):
+    def main(self) -> List[dict]:
         scraper = Scraper()
         calendar_data = scraper.main()
         return self.__generate_json_array__(calendar_data)
