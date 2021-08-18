@@ -4,4 +4,9 @@
 
 from ubcexplorerscript import UBCExplorerScript
 
-ubcexplorerscriptobj = UBCExplorerScript()
+def main(event, context):
+    ubcexplorerscriptobj = UBCExplorerScript()
+    data = ubcexplorerscriptobj.main()
+    return data
+
+main(None, None)
