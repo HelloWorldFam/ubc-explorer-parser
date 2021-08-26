@@ -1,0 +1,2 @@
+pymongo[tls,srv]==3.12.0
+# boto3==1.18.29 # We won't use Boto3 to access AWS Secrets Manager as SM is not included in free tier
