@@ -1,4 +1,4 @@
-SITEDIR := v-env/lib/python3.6/site-packages
+SITEDIR := v-env/lib/python3.8/site-packages
 LAMBDA := lambdaPackage
 
 .PHONY: clean all
@@ -6,11 +6,11 @@ LAMBDA := lambdaPackage
 all: v-env/bin/activate ${LAMBDA}.zip
 
 v-env/bin/activate: requirements.txt
-	test -d v-env || python3 -m venv v-env
-	. v-env/bin/activate && pip install --upgrade pip && pip install wheel && pip install -r $< && deactivate
+	test -d v-env || python3.8 -m venv v-env
+	. v-env/bin/activate && pip install --upgrade pip && pip install -r $< && deactivate
 	touch $@
 
-v-env/lib/python3.6/site-packages/%.zip: ${SITEDIR}
+v-env/lib/python3.8/site-packages/%.zip: ${SITEDIR}
 	cd $<; zip -r9 $(notdir $@) .
 
 %.zip: ${SITEDIR}/%.zip $(wildcard *.py)
