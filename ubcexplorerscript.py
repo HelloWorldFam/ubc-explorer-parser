@@ -26,7 +26,7 @@ class UBCExplorerScript:
     # for a given course, converts the credits value from string to integer
     # returns the modified course
     def __credits_to_int(self, course: dict) -> dict:
-        if "cred" in course and len(course["cred"]) == 1:
+        if "cred" in course and len(course["cred"]) >= 1 and course["cred"].isnumeric():
             course["cred"] = int(course["cred"])
         else:
             course["cred"] = None
