@@ -43,7 +43,7 @@ class UBCExplorerScript:
         return self.__generate_json_array(calendar_data)
 
 # testing
-script = UBCExplorerScript()
-output = script.main()
-with open('output.json', 'w') as file:
-    json.dump(output, file)
+# script = UBCExplorerScript()
+# output = script.main()
+# with open('output.json', 'w') as file:
+#     json.dump(output, file)
