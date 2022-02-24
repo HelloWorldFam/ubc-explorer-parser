@@ -21,6 +21,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 
 # import req
 import urllib.request
+import concurrent.futures
 
 # CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubcalend.py']
 # YEAR = req.get_year(CONFIG['year'])
@@ -31,6 +32,9 @@ import urllib.request
 # req.make_dirs(OUTFOLDER)
 
 class Scraper:
+    def __init__(self):
+        self.final = []
+
     # Translate a file into a format that req can parse
     def __translate(self, url):
         html = urllib.request.urlopen(url)
@@ -203,6 +207,13 @@ class Scraper:
             return parsed[0][1:-1]
         return ' and '.join(parsed)
 
+    def __create_thread(self, line):
+        department = line.decode('UTF-8', 'backslashreplace')
+        if '<tr class="row-highlight"' in department:
+            dept = department.split('=')[4].split("'")[0]
+            self.final = self.final + \
+                self.__translate(
+                    f'http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code={dept}')
 
     # Translate all webpages into .txt files from the UBC Academic Calendar
     def main(self):
@@ -211,13 +222,8 @@ class Scraper:
         # logfile.close()
         calendar = urllib.request.urlopen('http://www.calendar.ubc.ca/' +
                                         'vancouver/courses.cfm?page=code')
-        final = []
 
-        for line in calendar:
-            # Department looks like <tr class="row-highlight"
-            #   onClick="window.open('courses.cfm?page=code&code=AANB','_self');">
-            department = line.decode('UTF-8', 'backslashreplace')
-            if '<tr class="row-highlight"' in department:
-                dept = department.split('=')[4].split("'")[0]
-                final = final + self.__translate(f'http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code={dept}')
-        return final
+        with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+            executor.map(self.__create_thread, calendar)
+
+        return self.final

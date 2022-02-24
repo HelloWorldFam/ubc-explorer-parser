@@ -1,6 +1,7 @@
 import re
 from typing import List
 from ubcalend_txt import Scraper
+import json
 
 class UBCExplorerScript:
     # converts output from ubcalend_txt script to list of dicts
@@ -81,3 +82,8 @@ class UBCExplorerScript:
         calendar_data = scraper.main()
         return self.__generate_json_array(calendar_data)
 
+
+script = UBCExplorerScript()
+output = script.main()
+with open('output.json', 'w') as file:
+    json.dump(output, file)
