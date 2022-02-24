@@ -57,7 +57,7 @@ class Scraper:
 
         result = []
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(self.__process_dept, list(dept_links))
             for r in results:
                 result += r
