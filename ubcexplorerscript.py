@@ -32,9 +32,15 @@ class UBCExplorerScript:
     def __generate_json_array(self, calendar_data: List[dict]) -> List[dict]:
         courses_array = calendar_data
         courses_array = [self.__credits_to_int(course) for course in courses_array]
-        return self.__get_dependencies(courses_array)
+        return sorted(self.__get_dependencies(courses_array), key=lambda course: course['code'])
 
     def main(self) -> List[dict]:
         scraper = Scraper()
         calendar_data = scraper.main()
         return self.__generate_json_array(calendar_data)
+
+# testing
+script = UBCExplorerScript()
+output = script.main()
+with open('output.json', 'w') as file:
+    json.dump(output, file)
