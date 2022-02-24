@@ -1477,16 +1477,16 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APBI&course=260",
     "desc": "Biophysical and socioeconomic factors affecting systems management and production in selected agroecosystems.",
     "depn": [
-      "FRST 444",
-      "SCIE 420",
-      "BIOL 314",
       "APBI 319",
       "APBI 360",
       "APBI 365",
       "APBI 423",
       "APBI 462",
+      "BIOL 314",
       "CONS 314",
-      "CONS 453"
+      "CONS 453",
+      "FRST 444",
+      "SCIE 420"
     ]
   },
   {
@@ -1496,10 +1496,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APBI&course=265",
     "desc": "Principles and practices necessary to understand practical concerns of sustainable food systems.  Students who already present credit for APBI 260 are not permitted to receive credit for APBI 265. [1-3-0]",
     "depn": [
-      "SCIE 420",
       "APBI 319",
       "APBI 360",
-      "APBI 365"
+      "APBI 365",
+      "SCIE 420"
     ]
   },
   {
@@ -1539,9 +1539,9 @@
       "BIOL 260"
     ],
     "depn": [
-      "BIOL 362",
       "APBI 418",
-      "APBI 419"
+      "APBI 419",
+      "BIOL 362"
     ]
   },
   {
@@ -1647,9 +1647,9 @@
       "BIOL 121"
     ],
     "depn": [
-      "FRST 408",
+      "APBI 427",
       "BIOL 411",
-      "APBI 427"
+      "FRST 408"
     ]
   },
   {
@@ -2101,11 +2101,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=100",
     "desc": "An introduction to the engineering profession including: roles and responsibilities of the engineer, the engineering disciplines, sustainability, an introduction to the engineering design process, introduction and application of the relevant foundational scientific principles, prototyping, engineering graphics, technical communication, and engineering ethics. This course is not eligible for Credit/D/Fail grading. [2-2-0]",
     "depn": [
+      "APSC 101",
+      "BMEG 101",
       "MECH 220",
       "MECH 230",
-      "MECH 232",
-      "BMEG 101",
-      "APSC 101"
+      "MECH 232"
     ]
   },
   {
@@ -2179,17 +2179,17 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=160",
     "desc": "Analysis and simulation, laboratory data acquisition and processing, measurement interfaces, engineering tools, computer systems organization, programming languages. Credit will only be given for one of: APSC 160, CPSC 301, or EOSC 211. This course is not eligible for Credit/D/Fail grading. [3-2-0]",
     "depn": [
+      "ATSC 313",
+      "CHBE 230",
+      "CPEN 211",
+      "CPEN 221",
+      "CPEN 223",
       "CPSC 259",
+      "EOSC 213",
       "MECH 220",
       "MECH 230",
       "MECH 232",
-      "EOSC 213",
-      "CHBE 230",
-      "ATSC 313",
-      "PHYS 410",
-      "CPEN 211",
-      "CPEN 221",
-      "CPEN 223"
+      "PHYS 410"
     ]
   },
   {
@@ -2199,9 +2199,9 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=172",
     "desc": "Functions, limits, differentiation, applications of derivatives, integration, applications of definite integrals. This course is not eligible for Credit/D/Fail grading. [3-0-1]",
     "depn": [
-      "MECH 260",
       "APSC 173",
-      "APSC 178"
+      "APSC 178",
+      "MECH 260"
     ]
   },
   {
@@ -2225,24 +2225,24 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=176",
     "desc": "Purpose, audience, content, format, and tone are studied, as are team-based report writings and presentations. Community Service Learning projects are integrated into existing assignments. An LPI level 5 is required for registration in this course. This course is not eligible for Credit/D/Fail grading. [2-0-2]",
     "depn": [
+      "APSC 201",
+      "APSC 202",
+      "BMEG 201",
+      "CHBE 201",
+      "CIVL 201",
+      "CIVL 203",
+      "CPEN 281",
+      "ELEC 281",
+      "ENPH 259",
+      "IGEN 201",
+      "MANU 201",
       "MECH 220",
       "MECH 221",
       "MECH 226",
       "MECH 227",
       "MECH 230",
       "MECH 232",
-      "CIVL 201",
-      "CIVL 203",
-      "BMEG 201",
-      "IGEN 201",
-      "MANU 201",
-      "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201",
-      "APSC 202"
+      "MTRL 201"
     ]
   },
   {
@@ -2412,20 +2412,20 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=278",
     "desc": "Atomic bonding; crystal structures and imperfections; properties of metals, ceramics, polymers, wood, concrete and fibre composite materials; selection of materials; corrosion; mechanical testing and heat treatment. This course is not eligible for Credit/D/Fail grading. [3-0-0]",
     "depn": [
-      "MECH 329",
-      "MECH 435",
+      "APSC 279",
       "CIVL 320",
       "IGEN 450",
       "IGEN 451",
       "MANU 378",
       "MANU 380",
+      "MECH 329",
+      "MECH 435",
       "MTRL 340",
       "MTRL 365",
       "MTRL 442",
       "MTRL 460",
       "MTRL 469",
-      "MTRL 495",
-      "APSC 279"
+      "MTRL 495"
     ]
   },
   {
@@ -3900,6 +3900,7 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ARTS&course=001",
     "desc": "This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "AFST 370",
       "ENGL 200",
       "ENGL 220",
       "ENGL 221",
@@ -3991,8 +3992,7 @@
       "ENGL 396",
       "ENGL 397",
       "ENGL 398",
-      "ENGL 399",
-      "AFST 370"
+      "ENGL 399"
     ]
   },
   {
@@ -5367,8 +5367,8 @@
     "prer": "Second-year standing.",
     "preq": [],
     "depn": [
-      "SCIE 420",
-      "ENVR 440"
+      "ENVR 440",
+      "SCIE 420"
     ]
   },
   {
@@ -5657,6 +5657,7 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ASTU&course=100",
     "desc": "CAP seminar focused on writing and reading, including both literature and introduction to academic scholarship. Topics vary each year. Credits count toward both the Faculty of Arts Writing and Research Requirement and the Literature Requirement. Restricted to students in the Coordinated Arts Program. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "AFST 370",
       "ENGL 200",
       "ENGL 220",
       "ENGL 221",
@@ -5749,7 +5750,6 @@
       "ENGL 397",
       "ENGL 398",
       "ENGL 399",
-      "AFST 370",
       "WRDS 250",
       "WRDS 360"
     ]
@@ -5761,6 +5761,7 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ASTU&course=101",
     "desc": "Analysis of and practice in academic writing and reading in the social sciences and the humanities. Restricted to students in the Coordinated Arts Program. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "AFST 370",
       "ENGL 200",
       "ENGL 220",
       "ENGL 221",
@@ -5847,7 +5848,6 @@
       "ENGL 397",
       "ENGL 398",
       "ENGL 399",
-      "AFST 370",
       "WRDS 250",
       "WRDS 360"
     ]
@@ -6032,15 +6032,15 @@
     "prer": "Completion of first-year science.",
     "preq": [],
     "depn": [
-      "GEOS 300",
-      "GEOS 304",
-      "GEOS 305",
-      "EOSC 471",
       "ATSC 303",
       "ATSC 398",
       "ATSC 406",
+      "ENST 312",
+      "EOSC 471",
       "GEOG 312",
-      "ENST 312"
+      "GEOS 300",
+      "GEOS 304",
+      "GEOS 305"
     ]
   },
   {
@@ -6503,19 +6503,19 @@
       "CHEM 233"
     ],
     "depn": [
-      "MICB 301",
-      "MICB 308",
+      "APBI 426",
+      "BIOC 302",
+      "BIOC 303",
       "BIOL 421",
       "BIOL 437",
       "BIOL 450",
       "BIOL 463",
-      "APBI 426",
       "FNH 350",
       "FNH 351",
+      "MICB 301",
+      "MICB 308",
       "PCTH 305",
-      "PCTH 325",
-      "BIOC 302",
-      "BIOC 303"
+      "PCTH 325"
     ]
   },
   {
@@ -6535,18 +6535,18 @@
       "CHEM 213"
     ],
     "depn": [
-      "MICB 301",
-      "MICB 308",
+      "APBI 426",
+      "BIOC 302",
+      "BIOC 303",
       "BIOL 421",
       "BIOL 437",
       "BIOL 450",
       "BIOL 463",
-      "APBI 426",
       "FNH 405",
+      "MICB 301",
+      "MICB 308",
       "PCTH 305",
-      "PCTH 325",
-      "BIOC 302",
-      "BIOC 303"
+      "PCTH 325"
     ]
   },
   {
@@ -6581,13 +6581,13 @@
       "CHEM 233"
     ],
     "depn": [
-      "MICB 405",
-      "MEDG 421",
+      "BIOC 402",
+      "BIOC 470",
       "FNH 430",
       "FNH 451",
       "FNH 475",
-      "BIOC 402",
-      "BIOC 470"
+      "MEDG 421",
+      "MICB 405"
     ]
   },
   {
@@ -6606,14 +6606,14 @@
       "CHEM 233"
     ],
     "depn": [
-      "MICB 405",
-      "MEDG 421",
       "BIOC 402",
       "BIOC 410",
       "BIOC 440",
       "BIOC 450",
       "BIOC 460",
-      "BIOC 470"
+      "BIOC 470",
+      "MEDG 421",
+      "MICB 405"
     ]
   },
   {
@@ -6854,17 +6854,17 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BIOL&course=111",
     "desc": "Concepts fundamental to biological issues, such as the genetic basis of biological variation, evolution, infectious diseases, causes of cancer, population growth, and human effects on ecosystems.  Not open to students who have credit for Biology 12 (including AP, IB). [3-0-0]",
     "depn": [
-      "CPSC 445",
+      "BEST 201",
+      "BEST 203",
       "BIOL 112",
       "BIOL 121",
       "BIOL 140",
       "BIOL 153",
       "BIOL 155",
+      "CPSC 445",
+      "EOSC 426",
       "FNH 250",
-      "PCTH 201",
-      "BEST 201",
-      "BEST 203",
-      "EOSC 426"
+      "PCTH 201"
     ]
   },
   {
@@ -6881,26 +6881,26 @@
       "BIOL 111"
     ],
     "depn": [
-      "PATH 300",
-      "GRS 300",
-      "MICB 201",
-      "MICB 202",
-      "MICB 203",
-      "MICB 353",
+      "APBI 235",
+      "APBI 442",
+      "APBI 443",
       "BIOL 200",
       "BIOL 233",
       "BIOL 234",
       "BIOL 260",
-      "APBI 235",
-      "APBI 442",
-      "APBI 443",
+      "CAPS 301",
+      "CHBE 452",
+      "EOSC 426",
       "FNH 250",
       "FNH 313",
-      "PCTH 201",
-      "EOSC 426",
+      "GRS 300",
       "KIN 438",
-      "CHBE 452",
-      "CAPS 301"
+      "MICB 201",
+      "MICB 202",
+      "MICB 203",
+      "MICB 353",
+      "PATH 300",
+      "PCTH 201"
     ]
   },
   {
@@ -6914,14 +6914,17 @@
       "BIOL 111"
     ],
     "depn": [
-      "GEOS 400",
-      "FRST 200",
-      "FRST 310",
-      "GRS 300",
-      "PSYC 270",
-      "PSYC 271",
-      "PSYC 273",
-      "PSYC 277",
+      "APBI 210",
+      "APBI 235",
+      "APBI 324",
+      "APBI 327",
+      "APBI 342",
+      "APBI 351",
+      "APBI 428",
+      "APBI 442",
+      "APBI 443",
+      "BEST 201",
+      "BEST 203",
       "BIOL 200",
       "BIOL 203",
       "BIOL 204",
@@ -6949,23 +6952,20 @@
       "BIOL 413",
       "BIOL 424",
       "BIOL 427",
-      "APBI 210",
-      "APBI 235",
-      "APBI 324",
-      "APBI 327",
-      "APBI 342",
-      "APBI 351",
-      "APBI 428",
-      "APBI 442",
-      "APBI 443",
-      "BEST 201",
-      "BEST 203",
-      "EOSC 426",
       "CAPS 301",
       "CAPS 390",
       "CAPS 391",
       "CONS 310",
-      "CONS 330"
+      "CONS 330",
+      "EOSC 426",
+      "FRST 200",
+      "FRST 310",
+      "GEOS 400",
+      "GRS 300",
+      "PSYC 270",
+      "PSYC 271",
+      "PSYC 273",
+      "PSYC 277"
     ]
   },
   {
@@ -6979,16 +6979,16 @@
       "BIOL 111"
     ],
     "depn": [
-      "GRS 300",
-      "PSYC 270",
-      "PSYC 277",
+      "APBI 210",
+      "APBI 235",
       "BIOL 203",
       "BIOL 204",
       "BIOL 205",
       "BIOL 340",
       "BIOL 342",
-      "APBI 210",
-      "APBI 235"
+      "GRS 300",
+      "PSYC 270",
+      "PSYC 277"
     ]
   },
   {
@@ -7050,11 +7050,9 @@
       "CHEM 223"
     ],
     "depn": [
-      "PATH 300",
-      "FRST 413",
-      "MICB 201",
-      "MICB 202",
-      "MICB 322",
+      "APBI 426",
+      "APBI 442",
+      "BIOC 203",
       "BIOL 201",
       "BIOL 203",
       "BIOL 330",
@@ -7074,12 +7072,14 @@
       "BIOL 432",
       "BIOL 434",
       "BIOL 462",
-      "APBI 426",
-      "APBI 442",
-      "PCTH 300",
       "CAPS 200",
       "CAPS 390",
-      "BIOC 203"
+      "FRST 413",
+      "MICB 201",
+      "MICB 202",
+      "MICB 322",
+      "PATH 300",
+      "PCTH 300"
     ]
   },
   {
@@ -7099,11 +7099,12 @@
       "CHEM 330"
     ],
     "depn": [
-      "PATH 300",
-      "FRST 413",
-      "MICB 301",
-      "MICB 308",
-      "MICB 322",
+      "APBI 410",
+      "APBI 411",
+      "APBI 426",
+      "APBI 442",
+      "BIOC 302",
+      "BIOC 303",
       "BIOL 330",
       "BIOL 331",
       "BIOL 421",
@@ -7111,19 +7112,18 @@
       "BIOL 450",
       "BIOL 462",
       "BIOL 463",
-      "APBI 410",
-      "APBI 411",
-      "APBI 426",
-      "APBI 442",
       "FNH 350",
       "FNH 351",
       "FNH 402",
       "FNH 405",
+      "FRST 413",
+      "MICB 301",
+      "MICB 308",
+      "MICB 322",
+      "PATH 300",
       "PCTH 300",
       "PCTH 305",
-      "PCTH 325",
-      "BIOC 302",
-      "BIOC 303"
+      "PCTH 325"
     ]
   },
   {
@@ -7157,14 +7157,14 @@
       "BIOL 140"
     ],
     "depn": [
-      "BIOL 363",
-      "BIOL 364",
-      "BIOL 426",
-      "BIOL 465",
       "APBI 311",
       "APBI 312",
       "APBI 418",
-      "APBI 419"
+      "APBI 419",
+      "BIOL 363",
+      "BIOL 364",
+      "BIOL 426",
+      "BIOL 465"
     ]
   },
   {
@@ -7181,12 +7181,12 @@
       "BIOL 140"
     ],
     "depn": [
-      "MRNE 435",
-      "PSYC 462",
+      "APBI 427",
       "BIOL 326",
       "BIOL 411",
       "BIOL 428",
-      "APBI 427"
+      "MRNE 435",
+      "PSYC 462"
     ]
   },
   {
@@ -7201,8 +7201,8 @@
       "SCIE 001"
     ],
     "depn": [
-      "FRST 413",
-      "BIOL 462"
+      "BIOL 462",
+      "FRST 413"
     ]
   },
   {
@@ -7217,9 +7217,9 @@
       "SCIE 001"
     ],
     "depn": [
-      "FRST 413",
+      "APBI 442",
       "BIOL 462",
-      "APBI 442"
+      "FRST 413"
     ]
   },
   {
@@ -7234,13 +7234,10 @@
       "SCIE 001"
     ],
     "depn": [
-      "GEOS 302",
-      "GEOS 303",
-      "GEOS 307",
-      "GEOS 309",
-      "GEOS 407",
-      "FRST 395",
-      "SCIE 420",
+      "APBI 319",
+      "APBI 360",
+      "APBI 423",
+      "APBI 495",
       "BIOL 306",
       "BIOL 314",
       "BIOL 402",
@@ -7250,16 +7247,19 @@
       "BIOL 416",
       "BIOL 418",
       "BIOL 424",
-      "APBI 319",
-      "APBI 360",
-      "APBI 423",
-      "APBI 495",
-      "ENVR 430",
-      "UFOR 403",
-      "UFOR 495",
       "CONS 314",
       "CONS 453",
-      "CONS 495"
+      "CONS 495",
+      "ENVR 430",
+      "FRST 395",
+      "GEOS 302",
+      "GEOS 303",
+      "GEOS 307",
+      "GEOS 309",
+      "GEOS 407",
+      "SCIE 420",
+      "UFOR 403",
+      "UFOR 495"
     ]
   },
   {
@@ -7279,7 +7279,7 @@
       "BIOL 121"
     ],
     "depn": [
-      "MEDG 419",
+      "APBI 426",
       "BIOL 330",
       "BIOL 331",
       "BIOL 335",
@@ -7290,7 +7290,7 @@
       "BIOL 421",
       "BIOL 432",
       "BIOL 434",
-      "APBI 426"
+      "MEDG 419"
     ]
   },
   {
@@ -7310,9 +7310,7 @@
       "BIOL 121"
     ],
     "depn": [
-      "MICB 325",
-      "MICB 402",
-      "MEDG 419",
+      "APBI 426",
       "BIOL 330",
       "BIOL 331",
       "BIOL 335",
@@ -7323,7 +7321,9 @@
       "BIOL 421",
       "BIOL 432",
       "BIOL 434",
-      "APBI 426"
+      "MEDG 419",
+      "MICB 325",
+      "MICB 402"
     ]
   },
   {
@@ -7339,7 +7339,11 @@
       "SCIE 001"
     ],
     "depn": [
-      "PSYC 363",
+      "APBI 311",
+      "APBI 312",
+      "APBI 418",
+      "APBI 419",
+      "APBI 426",
       "BIOL 330",
       "BIOL 331",
       "BIOL 362",
@@ -7347,11 +7351,7 @@
       "BIOL 370",
       "BIOL 371",
       "BIOL 421",
-      "APBI 311",
-      "APBI 312",
-      "APBI 418",
-      "APBI 419",
-      "APBI 426"
+      "PSYC 363"
     ]
   },
   {
@@ -7370,34 +7370,34 @@
       "SCIE 001"
     ],
     "depn": [
-      "GEOS 403",
-      "FRST 430",
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 335",
-      "STAT 344",
-      "STAT 443",
-      "PHAR 205",
-      "CPSC 320",
-      "CPSC 444",
+      "APBI 462",
       "ASTR 333",
       "BIOL 402",
       "BIOL 403",
       "BIOL 404",
       "BIOL 408",
       "BIOL 409",
-      "APBI 462",
+      "CONS 453",
+      "CPSC 320",
+      "CPSC 444",
+      "EOSC 410",
+      "EOSC 442",
       "FNH 303",
       "FNH 398",
       "FNH 403",
-      "PCTH 404",
-      "EOSC 410",
-      "EOSC 442",
       "FRE 326",
       "FRE 385",
       "FRE 474",
-      "CONS 453"
+      "FRST 430",
+      "GEOS 403",
+      "PCTH 404",
+      "PHAR 205",
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 335",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -7427,9 +7427,9 @@
       "BIOL 230"
     ],
     "depn": [
-      "FRST 395",
       "BIOL 409",
-      "CONS 453"
+      "CONS 453",
+      "FRST 395"
     ]
   },
   {
@@ -7574,9 +7574,9 @@
       "SCIE 001"
     ],
     "depn": [
-      "FRST 408",
+      "APBI 427",
       "BIOL 411",
-      "APBI 427"
+      "FRST 408"
     ]
   },
   {
@@ -7620,9 +7620,9 @@
       "BIOL 234"
     ],
     "depn": [
-      "MEDG 419",
       "BIOL 437",
-      "BIOL 463"
+      "BIOL 463",
+      "MEDG 419"
     ]
   },
   {
@@ -7650,14 +7650,7 @@
       "FRST 302"
     ],
     "depn": [
-      "MICB 402",
-      "MICB 405",
-      "MICB 413",
-      "MICB 425",
-      "MEDG 410",
-      "MEDG 419",
-      "MEDG 420",
-      "MEDG 421",
+      "BIOC 410",
       "BIOL 430",
       "BIOL 433",
       "BIOL 436",
@@ -7667,7 +7660,14 @@
       "BIOL 463",
       "FNH 430",
       "FNH 436",
-      "BIOC 410"
+      "MEDG 410",
+      "MEDG 419",
+      "MEDG 420",
+      "MEDG 421",
+      "MICB 402",
+      "MICB 405",
+      "MICB 413",
+      "MICB 425"
     ]
   },
   {
@@ -7718,10 +7718,10 @@
       "FRST 302"
     ],
     "depn": [
-      "MEDG 420",
       "BIOL 430",
       "BIOL 436",
-      "BIOL 440"
+      "BIOL 440",
+      "MEDG 420"
     ]
   },
   {
@@ -7850,13 +7850,13 @@
       "BIOL 200"
     ],
     "depn": [
-      "PSYC 363",
+      "APBI 311",
       "BIOL 362",
       "BIOL 364",
       "BIOL 441",
       "BIOL 450",
       "BIOL 455",
-      "APBI 311"
+      "PSYC 363"
     ]
   },
   {
@@ -8898,6 +8898,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BIOT&course=380",
     "desc": "Block registration for the microbiology, molecular genetics, biochemistry, management and regulatory affairs, process systems, analytical chemistry and communication courses taken in the BCIT/UBC Joint Degree in Biotechnology.  Credit limited to students in the Joint Degree Program.",
     "depn": [
+      "BIOC 402",
+      "BIOC 410",
+      "BIOC 440",
+      "BIOC 450",
+      "BIOC 460",
       "MICB 301",
       "MICB 306",
       "MICB 308",
@@ -8906,12 +8911,7 @@
       "MICB 413",
       "MICB 421",
       "MICB 425",
-      "MICB 447",
-      "BIOC 402",
-      "BIOC 410",
-      "BIOC 440",
-      "BIOC 450",
-      "BIOC 460"
+      "MICB 447"
     ]
   },
   {
@@ -8962,11 +8962,11 @@
       "BMEG 101"
     ],
     "depn": [
+      "BMEG 257",
       "MECH 220",
       "MECH 221",
       "MECH 230",
-      "MECH 232",
-      "BMEG 257"
+      "MECH 232"
     ]
   },
   {
@@ -9066,14 +9066,14 @@
       "CHEM 100"
     ],
     "depn": [
-      "MICB 202",
       "BMEG 250",
       "BMEG 310",
       "BMEG 350",
       "BMEG 470",
       "BMEG 474",
       "CHBE 381",
-      "CHBE 470"
+      "CHBE 470",
+      "MICB 202"
     ]
   },
   {
@@ -9088,13 +9088,13 @@
       "MATH 256"
     ],
     "depn": [
-      "CPSC 445",
       "BMEG 350",
       "BMEG 372",
       "BMEG 374",
       "BMEG 420",
       "BMEG 470",
-      "BMEG 474"
+      "BMEG 474",
+      "CPSC 445"
     ]
   },
   {
@@ -10059,19 +10059,19 @@
       "CHEM 260"
     ],
     "depn": [
-      "PSYC 363",
+      "APBI 410",
       "BIOL 371",
       "BIOL 455",
       "BIOL 459",
       "BIOL 460",
-      "APBI 410",
-      "FNH 451",
       "CAPS 398",
       "CAPS 421",
       "CAPS 422",
       "CAPS 423",
       "CAPS 424",
-      "CAPS 426"
+      "CAPS 426",
+      "FNH 451",
+      "PSYC 363"
     ]
   },
   {
@@ -10380,12 +10380,12 @@
       "CHBE 201"
     ],
     "depn": [
-      "CHEM 301",
-      "CHEM 302",
-      "CHEM 406",
       "CHBE 221",
       "CHBE 346",
-      "CHBE 477"
+      "CHBE 477",
+      "CHEM 301",
+      "CHEM 302",
+      "CHEM 406"
     ]
   },
   {
@@ -10436,10 +10436,6 @@
       "MATH 152"
     ],
     "depn": [
-      "MECH 327",
-      "MECH 375",
-      "MECH 380",
-      "ENVE 202",
       "CHBE 244",
       "CHBE 344",
       "CHBE 346",
@@ -10455,7 +10451,11 @@
       "CHBE 477",
       "CHBE 484",
       "CHBE 486",
-      "CHBE 487"
+      "CHBE 487",
+      "ENVE 202",
+      "MECH 327",
+      "MECH 375",
+      "MECH 380"
     ]
   },
   {
@@ -10499,10 +10499,6 @@
       "MATH 256"
     ],
     "depn": [
-      "MECH 327",
-      "MECH 375",
-      "MECH 380",
-      "MECH 433",
       "BMEG 373",
       "CHBE 350",
       "CHBE 352",
@@ -10510,7 +10506,11 @@
       "CHBE 366",
       "CHBE 373",
       "CHBE 478",
-      "CHBE 488"
+      "CHBE 488",
+      "MECH 327",
+      "MECH 375",
+      "MECH 380",
+      "MECH 433"
     ]
   },
   {
@@ -11315,12 +11315,12 @@
     "prer": "Not open to students with credit for Chemistry 12.  Permission of the department head.",
     "preq": [],
     "depn": [
-      "CHEM 120",
-      "CHEM 121",
       "BIOL 112",
       "BIOL 153",
       "BIOL 155",
-      "BMEG 245"
+      "BMEG 245",
+      "CHEM 120",
+      "CHEM 121"
     ]
   },
   {
@@ -11332,20 +11332,20 @@
     "prer": "Not open to students with credit for Chemistry 12. A satisfactory score on the UBC Chemistry Basic Skills Test.",
     "preq": [],
     "depn": [
-      "GEOS 400",
-      "CHEM 115",
-      "CHEM 130",
-      "PSYC 271",
-      "PSYC 273",
       "BIOL 112",
       "BIOL 153",
       "BIOL 155",
+      "CHEM 115",
+      "CHEM 130",
       "EOSC 220",
       "EOSC 270",
       "EOSC 340",
       "EOSC 355",
       "EOSC 372",
-      "EOSC 426"
+      "EOSC 426",
+      "GEOS 400",
+      "PSYC 271",
+      "PSYC 273"
     ]
   },
   {
@@ -11357,26 +11357,26 @@
     "prer": "Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test.",
     "preq": [],
     "depn": [
-      "GEOS 400",
-      "GRS 300",
-      "CHEM 123",
-      "CHEM 130",
-      "CHEM 135",
-      "PSYC 270",
-      "PSYC 271",
-      "PSYC 273",
-      "PSYC 277",
+      "APBI 351",
       "BIOL 112",
       "BIOL 153",
       "BIOL 155",
-      "APBI 351",
-      "FNH 340",
+      "CHEM 123",
+      "CHEM 130",
+      "CHEM 135",
       "EOSC 220",
       "EOSC 270",
       "EOSC 340",
       "EOSC 355",
       "EOSC 372",
-      "EOSC 426"
+      "EOSC 426",
+      "FNH 340",
+      "GEOS 400",
+      "GRS 300",
+      "PSYC 270",
+      "PSYC 271",
+      "PSYC 273",
+      "PSYC 277"
     ]
   },
   {
@@ -11405,17 +11405,17 @@
       "CHEM 100"
     ],
     "depn": [
-      "GEOS 400",
       "CHEM 115",
       "CHEM 130",
-      "PSYC 271",
-      "PSYC 273",
       "EOSC 220",
       "EOSC 270",
       "EOSC 340",
       "EOSC 355",
       "EOSC 372",
-      "EOSC 426"
+      "EOSC 426",
+      "GEOS 400",
+      "PSYC 271",
+      "PSYC 273"
     ]
   },
   {
@@ -11429,24 +11429,24 @@
       "CHEM 100"
     ],
     "depn": [
-      "GEOS 400",
-      "GRS 300",
+      "BEST 200",
       "CHEM 123",
       "CHEM 130",
       "CHEM 135",
-      "MICB 201",
-      "PSYC 270",
-      "PSYC 271",
-      "PSYC 273",
-      "PSYC 277",
-      "FNH 340",
-      "BEST 200",
       "EOSC 220",
       "EOSC 270",
       "EOSC 340",
       "EOSC 355",
       "EOSC 372",
-      "EOSC 426"
+      "EOSC 426",
+      "FNH 340",
+      "GEOS 400",
+      "GRS 300",
+      "MICB 201",
+      "PSYC 270",
+      "PSYC 271",
+      "PSYC 273",
+      "PSYC 277"
     ]
   },
   {
@@ -11461,8 +11461,11 @@
       "CHEM 121"
     ],
     "depn": [
-      "GEOS 305",
-      "PATH 300",
+      "APBI 351",
+      "BIOL 200",
+      "BIOL 351",
+      "BMEG 210",
+      "BMEG 372",
       "CHEM 203",
       "CHEM 205",
       "CHEM 208",
@@ -11482,15 +11485,12 @@
       "CHEM 312",
       "CHEM 404",
       "CHEM 417",
+      "EOSC 430",
+      "FNH 340",
+      "GEOS 305",
+      "PATH 300",
       "PSYC 270",
       "PSYC 277",
-      "BIOL 200",
-      "BIOL 351",
-      "APBI 351",
-      "FNH 340",
-      "BMEG 210",
-      "BMEG 372",
-      "EOSC 430",
       "WOOD 271",
       "WOOD 373"
     ]
@@ -11509,6 +11509,8 @@
       "CHEM 121"
     ],
     "depn": [
+      "BIOL 200",
+      "BIOL 351",
       "CHEM 203",
       "CHEM 205",
       "CHEM 208",
@@ -11524,11 +11526,9 @@
       "CHEM 304",
       "CHEM 404",
       "CHEM 417",
+      "EOSC 430",
       "PSYC 271",
-      "PSYC 273",
-      "BIOL 200",
-      "BIOL 351",
-      "EOSC 430"
+      "PSYC 273"
     ]
   },
   {
@@ -11560,21 +11560,21 @@
     "prer": "CHEM 12.",
     "preq": [],
     "depn": [
+      "CHBE 220",
+      "CHBE 241",
       "CHEM 205",
       "CHEM 250",
       "CHEM 251",
       "CHEM 260",
       "CHEM 404",
-      "ENVE 202",
       "CIVL 204",
       "CIVL 407",
+      "ENVE 202",
       "EOSC 270",
       "EOSC 340",
       "EOSC 355",
       "EOSC 372",
-      "EOSC 430",
-      "CHBE 220",
-      "CHBE 241"
+      "EOSC 430"
     ]
   },
   {
@@ -11591,22 +11591,22 @@
       "SCIE 001"
     ],
     "depn": [
+      "BEST 300",
+      "BIOC 202",
+      "BIOC 203",
+      "BIOC 302",
+      "BIOL 200",
+      "BIOL 233",
+      "BIOL 234",
+      "CAPS 301",
       "CHEM 213",
       "CHEM 245",
       "CHEM 327",
       "CHEM 341",
       "CHEM 355",
-      "BIOL 200",
-      "BIOL 233",
-      "BIOL 234",
       "FNH 301",
       "FNH 302",
-      "PCTH 300",
-      "BEST 300",
-      "CAPS 301",
-      "BIOC 202",
-      "BIOC 203",
-      "BIOC 302"
+      "PCTH 300"
     ]
   },
   {
@@ -11630,15 +11630,15 @@
       "CHEM 154"
     ],
     "depn": [
-      "PATH 300",
+      "BIOC 303",
       "CHEM 305",
       "CHEM 406",
       "FNH 301",
       "FNH 302",
+      "PATH 300",
       "PCTH 300",
       "PHYS 305",
-      "PHYS 315",
-      "BIOC 303"
+      "PHYS 315"
     ]
   },
   {
@@ -11691,14 +11691,14 @@
       "SCIE 001"
     ],
     "depn": [
-      "PHAR 304",
-      "PHAR 307",
-      "PHAR 428",
       "CHEM 311",
       "CHEM 315",
       "CHEM 325",
       "CHEM 355",
-      "PCTH 300"
+      "PCTH 300",
+      "PHAR 304",
+      "PHAR 307",
+      "PHAR 428"
     ]
   },
   {
@@ -11714,14 +11714,14 @@
       "CHEM 233"
     ],
     "depn": [
+      "BIOC 303",
+      "BIOC 304",
+      "BIOL 201",
       "CHEM 313",
       "CHEM 315",
       "CHEM 325",
       "CHEM 330",
-      "CHEM 406",
-      "BIOL 201",
-      "BIOC 303",
-      "BIOC 304"
+      "CHEM 406"
     ]
   },
   {
@@ -11770,16 +11770,16 @@
       "SCIE 001"
     ],
     "depn": [
-      "CHEM 213",
-      "CHEM 245",
-      "CHEM 327",
-      "CHEM 341",
+      "BIOC 202",
+      "BIOC 203",
+      "BIOC 302",
       "BIOL 200",
       "BIOL 233",
       "BIOL 234",
-      "BIOC 202",
-      "BIOC 203",
-      "BIOC 302"
+      "CHEM 213",
+      "CHEM 245",
+      "CHEM 327",
+      "CHEM 341"
     ]
   },
   {
@@ -11810,29 +11810,29 @@
       "SCIE 001"
     ],
     "depn": [
-      "PATH 300",
-      "PHAR 304",
-      "PHAR 306",
-      "PHAR 307",
-      "PHAR 427",
+      "APBI 351",
+      "BEST 300",
+      "BIOC 202",
+      "BIOC 302",
+      "BIOC 303",
+      "BIOL 201",
+      "BIOL 351",
+      "BIOL 352",
+      "CAPS 301",
       "CHEM 213",
       "CHEM 245",
       "CHEM 327",
       "CHEM 341",
-      "MICB 322",
-      "BIOL 201",
-      "BIOL 351",
-      "BIOL 352",
-      "APBI 351",
       "FNH 301",
       "FNH 302",
       "FNH 413",
+      "MICB 322",
+      "PATH 300",
       "PCTH 300",
-      "BEST 300",
-      "CAPS 301",
-      "BIOC 202",
-      "BIOC 302",
-      "BIOC 303"
+      "PHAR 304",
+      "PHAR 306",
+      "PHAR 307",
+      "PHAR 427"
     ]
   },
   {
@@ -11852,12 +11852,12 @@
       "CHEM 233"
     ],
     "depn": [
-      "PATH 300",
-      "PHAR 304",
-      "PHAR 307",
       "CHEM 245",
       "CHEM 355",
-      "PCTH 300"
+      "PATH 300",
+      "PCTH 300",
+      "PHAR 304",
+      "PHAR 307"
     ]
   },
   {
@@ -11933,12 +11933,12 @@
       "SCIE 001"
     ],
     "depn": [
+      "BIOL 201",
+      "CAPS 301",
+      "CHBE 478",
       "CHEM 327",
       "CHEM 341",
-      "CHEM 406",
-      "BIOL 201",
-      "CHBE 478",
-      "CAPS 301"
+      "CHEM 406"
     ]
   },
   {
@@ -12087,11 +12087,11 @@
       "CHEM 213"
     ],
     "depn": [
+      "BIOL 201",
       "CHEM 413",
       "CHEM 416",
       "CHEM 461",
-      "CHEM 473",
-      "BIOL 201"
+      "CHEM 473"
     ]
   },
   {
@@ -12189,12 +12189,12 @@
       "CHEM 213"
     ],
     "depn": [
+      "BIOL 201",
       "CHEM 413",
       "CHEM 416",
       "CHEM 460",
       "CHEM 461",
-      "CHEM 473",
-      "BIOL 201"
+      "CHEM 473"
     ]
   },
   {
@@ -12764,10 +12764,10 @@
       "CHIN 231"
     ],
     "depn": [
-      "CNTO 301",
       "CHIN 331",
       "CHIN 334",
-      "CHIN 388"
+      "CHIN 388",
+      "CNTO 301"
     ]
   },
   {
@@ -12784,10 +12784,10 @@
       "CHIN 134"
     ],
     "depn": [
-      "CNTO 301",
       "CHIN 331",
       "CHIN 334",
-      "CHIN 388"
+      "CHIN 388",
+      "CNTO 301"
     ]
   },
   {
@@ -12819,9 +12819,9 @@
       "CHIN 241"
     ],
     "depn": [
-      "CNTO 311",
       "CHIN 341",
-      "CHIN 344"
+      "CHIN 344",
+      "CNTO 311"
     ]
   },
   {
@@ -12838,9 +12838,9 @@
       "CHIN 144"
     ],
     "depn": [
-      "CNTO 311",
       "CHIN 341",
-      "CHIN 344"
+      "CHIN 344",
+      "CNTO 311"
     ]
   },
   {
@@ -13936,8 +13936,8 @@
       "CHEM 154"
     ],
     "depn": [
-      "ENVE 202",
-      "CIVL 404"
+      "CIVL 404",
+      "ENVE 202"
     ]
   },
   {
@@ -13960,13 +13960,13 @@
       "MECH 280"
     ],
     "depn": [
-      "MINE 303",
-      "MINE 380",
       "CIVL 303",
       "CIVL 311",
       "CIVL 408",
       "EOSC 433",
-      "EOSC 434"
+      "EOSC 434",
+      "MINE 303",
+      "MINE 380"
     ]
   },
   {
@@ -13981,18 +13981,18 @@
       "MATH 101"
     ],
     "depn": [
-      "MINE 436",
-      "MECH 327",
-      "MECH 375",
-      "MECH 380",
-      "MECH 433",
+      "CHBE 373",
+      "CHBE 488",
       "CIVL 303",
       "CIVL 315",
       "CIVL 316",
       "IGEN 450",
       "IGEN 451",
-      "CHBE 373",
-      "CHBE 488"
+      "MECH 327",
+      "MECH 375",
+      "MECH 380",
+      "MECH 433",
+      "MINE 436"
     ]
   },
   {
@@ -14007,11 +14007,11 @@
       "MATH 101"
     ],
     "depn": [
-      "MINE 303",
       "CIVL 210",
       "CIVL 231",
       "IGEN 450",
       "IGEN 451",
+      "MINE 303",
       "WOOD 476"
     ]
   },
@@ -14142,10 +14142,10 @@
       "MATH 256"
     ],
     "depn": [
-      "MECH 488",
       "CIVL 408",
       "CIVL 409",
-      "CIVL 415"
+      "CIVL 415",
+      "MECH 488"
     ]
   },
   {
@@ -14786,9 +14786,9 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COEC&course=293",
     "desc": "Construction and interpretation of financial reports prepared primarily for external use. Credit will be granted for only one of COEC 293 or COMM 293. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "COMM 294",
       "COEC 294",
-      "COEC 298"
+      "COEC 298",
+      "COMM 294"
     ]
   },
   {
@@ -14936,12 +14936,12 @@
     "prer": "second-year standing in the Faculty of Arts or Science.",
     "preq": [],
     "depn": [
-      "PSYC 365",
       "COGS 300",
       "COGS 303",
       "PHIL 351",
       "PHIL 441",
-      "PHIL 451"
+      "PHIL 451",
+      "PSYC 365"
     ]
   },
   {
@@ -15492,8 +15492,7 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=293",
     "desc": "Introduction to the construction and interpretation of financial reports prepared primarily for external use. Credit will be granted for only one of COMM 293 or COEC 293. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "COMR 458",
-      "COMR 493",
+      "COEC 294",
       "COMM 294",
       "COMM 353",
       "COMM 354",
@@ -15501,7 +15500,8 @@
       "COMM 458",
       "COMM 459",
       "COMM 493",
-      "COEC 294"
+      "COMR 458",
+      "COMR 493"
     ]
   },
   {
@@ -15534,7 +15534,6 @@
       "ECON 102"
     ],
     "depn": [
-      "ECON 480",
       "COMM 306",
       "COMM 307",
       "COMM 365",
@@ -15544,6 +15543,7 @@
       "COMM 444",
       "COMM 446",
       "COMM 447",
+      "ECON 480",
       "FRE 394"
     ]
   },
@@ -16074,9 +16074,9 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=393",
     "desc": "Introduction to the law of contracts, with particular reference to contracts for sale of goods and related law of personal property; principles of agency, partnerships and company law. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "COHR 433",
       "COMM 431",
-      "COMM 434",
-      "COHR 433"
+      "COMM 434"
     ]
   },
   {
@@ -16487,11 +16487,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=457",
     "desc": "Financial accounting for business organizations; principles and problems of accounting measurements; forms of business organizations; financing of businesses. (For non-Commerce students only). This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "COMR 458",
-      "COMR 493",
       "COMM 355",
       "COMM 458",
-      "COMM 493"
+      "COMM 493",
+      "COMR 458",
+      "COMR 493"
     ]
   },
   {
@@ -17024,10 +17024,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMR&course=457",
     "desc": "Financial accounting for business organizations; principles and problems of accounting measurements; forms of business organizations; financing of businesses. (For non-Commerce students only). Not for students with credit for, or exemption from, COMM 293. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "COMR 458",
-      "COMR 493",
       "COMM 458",
-      "COMM 493"
+      "COMM 493",
+      "COMR 458",
+      "COMR 493"
     ]
   },
   {
@@ -17254,9 +17254,9 @@
       "GEOB 103"
     ],
     "depn": [
-      "SCIE 420",
       "APBI 319",
-      "APBI 416"
+      "APBI 416",
+      "SCIE 420"
     ]
   },
   {
@@ -17447,14 +17447,14 @@
       "APSC 160"
     ],
     "depn": [
-      "CPSC 261",
-      "ELEC 291",
-      "ELEC 472",
       "CPEN 212",
       "CPEN 291",
       "CPEN 311",
       "CPEN 322",
-      "CPEN 412"
+      "CPEN 412",
+      "CPSC 261",
+      "ELEC 291",
+      "ELEC 472"
     ]
   },
   {
@@ -17486,6 +17486,14 @@
       "APSC 160"
     ],
     "depn": [
+      "BMEG 310",
+      "CPEN 212",
+      "CPEN 321",
+      "CPEN 331",
+      "CPEN 422",
+      "CPEN 423",
+      "CPEN 431",
+      "CPEN 441",
       "CPSC 221",
       "CPSC 261",
       "CPSC 302",
@@ -17496,15 +17504,7 @@
       "CPSC 368",
       "DSCI 310",
       "DSCI 320",
-      "BMEG 310",
-      "ENPH 353",
-      "CPEN 212",
-      "CPEN 321",
-      "CPEN 331",
-      "CPEN 422",
-      "CPEN 423",
-      "CPEN 431",
-      "CPEN 441"
+      "ENPH 353"
     ]
   },
   {
@@ -17555,8 +17555,8 @@
       "ELEC 201"
     ],
     "depn": [
-      "ELEC 391",
-      "CPEN 391"
+      "CPEN 391",
+      "ELEC 391"
     ]
   },
   {
@@ -17571,10 +17571,10 @@
       "CPEN 312"
     ],
     "depn": [
-      "ELEC 402",
       "CPEN 391",
       "CPEN 411",
-      "CPEN 412"
+      "CPEN 412",
+      "ELEC 402"
     ]
   },
   {
@@ -17591,10 +17591,10 @@
       "MECH 221"
     ],
     "depn": [
-      "MECH 423",
       "CPEN 311",
       "CPEN 411",
-      "CPEN 412"
+      "CPEN 412",
+      "MECH 423"
     ]
   },
   {
@@ -17609,11 +17609,11 @@
       "CPSC 210"
     ],
     "depn": [
-      "CPSC 410",
-      "CPSC 455",
       "CPEN 421",
       "CPEN 422",
-      "CPEN 423"
+      "CPEN 423",
+      "CPSC 410",
+      "CPSC 455"
     ]
   },
   {
@@ -17640,13 +17640,13 @@
       "CPEN 221"
     ],
     "depn": [
+      "CPEN 431",
+      "CPEN 432",
+      "CPEN 442",
       "CPSC 410",
       "CPSC 415",
       "CPSC 416",
-      "ELEC 331",
-      "CPEN 431",
-      "CPEN 432",
-      "CPEN 442"
+      "ELEC 331"
     ]
   },
   {
@@ -17869,15 +17869,15 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=103",
     "desc": "Computation as a tool for systematic problem solving in non-computer-science disciplines. Introductory programming skills. Not for credit for students who have credit for, or exemption from, or are concurrently taking CPSC 110 or APSC 160. No programming experience expected. [3-0-1]",
     "depn": [
-      "LING 242",
+      "ATSC 212",
+      "ATSC 313",
       "CPSC 107",
       "CPSC 203",
       "CPSC 302",
       "CPSC 303",
       "EOSC 213",
       "EOSC 442",
-      "ATSC 212",
-      "ATSC 313",
+      "LING 242",
       "PHYS 410"
     ]
   },
@@ -17904,7 +17904,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=110",
     "desc": "Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world. [3-3-0]",
     "depn": [
-      "LING 242",
+      "ATSC 212",
+      "ATSC 313",
       "CPSC 203",
       "CPSC 210",
       "CPSC 302",
@@ -17913,8 +17914,7 @@
       "DSCI 310",
       "EOSC 213",
       "EOSC 442",
-      "ATSC 212",
-      "ATSC 313",
+      "LING 242",
       "PHYS 410"
     ]
   },
@@ -17979,6 +17979,11 @@
       "CPSC 110"
     ],
     "depn": [
+      "COMM 335",
+      "CPEN 321",
+      "CPEN 422",
+      "CPEN 431",
+      "CPEN 441",
       "CPSC 213",
       "CPSC 221",
       "CPSC 311",
@@ -17988,12 +17993,7 @@
       "CPSC 368",
       "DSCI 310",
       "DSCI 320",
-      "EOSC 410",
-      "COMM 335",
-      "CPEN 321",
-      "CPEN 422",
-      "CPEN 431",
-      "CPEN 441"
+      "EOSC 410"
     ]
   },
   {
@@ -18029,6 +18029,8 @@
       "MATH 220"
     ],
     "depn": [
+      "CPEN 322",
+      "CPEN 441",
       "CPSC 304",
       "CPSC 310",
       "CPSC 313",
@@ -18042,9 +18044,7 @@
       "CPSC 425",
       "CPSC 427",
       "CPSC 491",
-      "MATH 442",
-      "CPEN 322",
-      "CPEN 441"
+      "MATH 442"
     ]
   },
   {
@@ -18058,9 +18058,9 @@
       "APSC 160"
     ],
     "depn": [
-      "ELEC 422",
       "CPEN 212",
-      "CPEN 333"
+      "CPEN 333",
+      "ELEC 422"
     ]
   },
   {
@@ -18077,10 +18077,10 @@
       "CPEN 221"
     ],
     "depn": [
+      "CPEN 331",
       "CPSC 404",
       "CPSC 418",
-      "ELEC 331",
-      "CPEN 331"
+      "ELEC 331"
     ]
   },
   {
@@ -18139,10 +18139,10 @@
       "MATH 223"
     ],
     "depn": [
-      "CPSC 402",
-      "CPSC 406",
       "ASTR 205",
       "ASTR 300",
+      "CPSC 402",
+      "CPSC 406",
       "MATH 406"
     ]
   },
@@ -18169,10 +18169,10 @@
       "MATH 223"
     ],
     "depn": [
-      "CPSC 402",
-      "CPSC 406",
       "ASTR 205",
-      "ASTR 300"
+      "ASTR 300",
+      "CPSC 402",
+      "CPSC 406"
     ]
   },
   {
@@ -18201,14 +18201,14 @@
       "CPSC 221"
     ],
     "depn": [
-      "CPSC 319",
-      "CPSC 410",
-      "CPSC 455",
-      "CPSC 491",
       "COMM 436",
       "CPEN 421",
       "CPEN 422",
-      "CPEN 423"
+      "CPEN 423",
+      "CPSC 319",
+      "CPSC 410",
+      "CPSC 455",
+      "CPSC 491"
     ]
   },
   {
@@ -18249,13 +18249,13 @@
       "CPSC 221"
     ],
     "depn": [
+      "CPEN 431",
+      "CPEN 432",
+      "CPEN 442",
       "CPSC 415",
       "CPSC 416",
       "CPSC 417",
-      "CPSC 418",
-      "CPEN 431",
-      "CPEN 432",
-      "CPEN 442"
+      "CPSC 418"
     ]
   },
   {
@@ -18383,8 +18383,8 @@
       "MATH 318"
     ],
     "depn": [
-      "STAT 406",
-      "CPSC 440"
+      "CPSC 440",
+      "STAT 406"
     ]
   },
   {
@@ -20114,9 +20114,9 @@
     "prer": "MATH 12",
     "preq": [],
     "depn": [
-      "STAT 201",
+      "ATSC 313",
       "DSCI 310",
-      "ATSC 313"
+      "STAT 201"
     ]
   },
   {
@@ -20356,8 +20356,15 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ECON&course=101",
     "desc": "Elements of theory and of Canadian policy and institutions concerning the economics of markets and market behaviour, prices and costs, exchange and trade, competition and monopoly, distribution of income.",
     "depn": [
-      "FRST 318",
-      "FRST 319",
+      "BEST 401",
+      "BUSI 498",
+      "COMM 203",
+      "COMM 295",
+      "COMM 473",
+      "COMM 493",
+      "COMR 382",
+      "COMR 473",
+      "COMR 493",
       "ECON 204",
       "ECON 210",
       "ECON 211",
@@ -20409,15 +20416,6 @@
       "ECON 398",
       "ECON 457",
       "FOPR 362",
-      "BUSI 498",
-      "BEST 401",
-      "COMR 382",
-      "COMR 473",
-      "COMR 493",
-      "COMM 203",
-      "COMM 295",
-      "COMM 473",
-      "COMM 493",
       "FRE 290",
       "FRE 295",
       "FRE 302",
@@ -20430,6 +20428,8 @@
       "FRE 460",
       "FRE 474",
       "FRE 490",
+      "FRST 318",
+      "FRST 319",
       "WOOD 330"
     ]
   },
@@ -20440,6 +20440,13 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ECON&course=102",
     "desc": "Elements of theory and of Canadian policy and institutions concerning the economics of growth and business cycles, national income accounting, interest and exchange rates, money and banking, the balance of trade.",
     "depn": [
+      "BUSI 498",
+      "COMM 203",
+      "COMM 295",
+      "COMM 473",
+      "COMM 493",
+      "COMR 473",
+      "COMR 493",
       "ECON 204",
       "ECON 210",
       "ECON 211",
@@ -20487,13 +20494,6 @@
       "ECON 390",
       "ECON 398",
       "ECON 457",
-      "BUSI 498",
-      "COMR 473",
-      "COMR 493",
-      "COMM 203",
-      "COMM 295",
-      "COMM 473",
-      "COMM 493",
       "FRE 295"
     ]
   },
@@ -20633,7 +20633,15 @@
       "MATH 105"
     ],
     "depn": [
-      "FRST 319",
+      "COMM 306",
+      "COMM 307",
+      "COMM 365",
+      "COMM 394",
+      "COMM 407",
+      "COMM 415",
+      "COMM 444",
+      "COMM 446",
+      "COMM 447",
       "ECON 303",
       "ECON 316",
       "ECON 406",
@@ -20661,17 +20669,9 @@
       "ECON 485",
       "ECON 487",
       "ECON 490",
-      "COMM 306",
-      "COMM 307",
-      "COMM 365",
-      "COMM 394",
-      "COMM 407",
-      "COMM 415",
-      "COMM 444",
-      "COMM 446",
-      "COMM 447",
       "FRE 394",
-      "FRE 420"
+      "FRE 420",
+      "FRST 319"
     ]
   },
   {
@@ -20908,13 +20908,13 @@
       "MATH 105"
     ],
     "depn": [
+      "BUSI 498",
       "ECON 436",
       "ECON 447",
       "ECON 456",
       "ECON 460",
       "ECON 461",
-      "ECON 485",
-      "BUSI 498"
+      "ECON 485"
     ]
   },
   {
@@ -20926,6 +20926,11 @@
     "prer": "Third-year, fourth-year, or graduate standing.",
     "preq": [],
     "depn": [
+      "COMM 473",
+      "COMM 493",
+      "COMR 382",
+      "COMR 473",
+      "COMR 493",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -20940,11 +20945,6 @@
       "ECON 327",
       "ECON 390",
       "ECON 398",
-      "COMR 382",
-      "COMR 473",
-      "COMR 493",
-      "COMM 473",
-      "COMM 493",
       "FRE 290",
       "FRE 302",
       "FRE 306",
@@ -20966,6 +20966,10 @@
     "prer": "Third-year, fourth-year or graduate standing.",
     "preq": [],
     "depn": [
+      "COMM 473",
+      "COMM 493",
+      "COMR 473",
+      "COMR 493",
       "ECON 204",
       "ECON 302",
       "ECON 305",
@@ -20976,11 +20980,7 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "ECON 398",
-      "COMR 473",
-      "COMR 493",
-      "COMM 473",
-      "COMM 493"
+      "ECON 398"
     ]
   },
   {
@@ -21034,6 +21034,10 @@
       "MATH 105"
     ],
     "depn": [
+      "COEC 365",
+      "COEC 370",
+      "COEC 371",
+      "COEC 475",
       "ECON 316",
       "ECON 406",
       "ECON 417",
@@ -21056,11 +21060,7 @@
       "ECON 480",
       "ECON 482",
       "ECON 485",
-      "ECON 487",
-      "COEC 365",
-      "COEC 370",
-      "COEC 371",
-      "COEC 475"
+      "ECON 487"
     ]
   },
   {
@@ -21076,12 +21076,12 @@
       "ECON 315"
     ],
     "depn": [
-      "ECON 406",
-      "ECON 420",
       "COEC 365",
       "COEC 370",
       "COEC 371",
-      "COEC 475"
+      "COEC 475",
+      "ECON 406",
+      "ECON 420"
     ]
   },
   {
@@ -21203,20 +21203,20 @@
       "MATH 105"
     ],
     "depn": [
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
+      "ASTR 333",
+      "CPSC 340",
+      "CPSC 444",
       "ECON 326",
       "ECON 328",
       "ECON 398",
       "ECON 425",
       "ECON 485",
       "ECON 490",
-      "CPSC 340",
-      "CPSC 444",
-      "ASTR 333"
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -21265,17 +21265,17 @@
       "MATH 105"
     ],
     "depn": [
-      "STAT 300",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
+      "CPSC 340",
+      "CPSC 444",
       "ECON 326",
       "ECON 328",
       "ECON 398",
       "ECON 425",
       "ECON 485",
-      "CPSC 340",
-      "CPSC 444"
+      "STAT 300",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -23730,16 +23730,16 @@
       "MATH 265"
     ],
     "depn": [
-      "MECH 466",
       "BMEG 320",
       "BMEG 321",
+      "CPEN 312",
       "ELEC 202",
       "ELEC 291",
       "ELEC 301",
       "ELEC 302",
       "ELEC 344",
       "ELEC 472",
-      "CPEN 312"
+      "MECH 466"
     ]
   },
   {
@@ -23758,7 +23758,6 @@
       "MATH 256"
     ],
     "depn": [
-      "MECH 466",
       "BMEG 320",
       "ELEC 301",
       "ELEC 341",
@@ -23766,7 +23765,8 @@
       "ELEC 343",
       "ELEC 352",
       "ELEC 371",
-      "ELEC 472"
+      "ELEC 472",
+      "MECH 466"
     ]
   },
   {
@@ -23781,12 +23781,12 @@
       "MATH 256"
     ],
     "depn": [
-      "MECH 368",
+      "CPEN 312",
       "ELEC 202",
       "ELEC 301",
       "ELEC 302",
       "ELEC 344",
-      "CPEN 312"
+      "MECH 368"
     ]
   },
   {
@@ -23808,12 +23808,12 @@
       "MATH 255"
     ],
     "depn": [
-      "MECH 466",
       "BMEG 321",
+      "CPEN 312",
       "ELEC 301",
       "ELEC 302",
       "ELEC 341",
-      "CPEN 312"
+      "MECH 466"
     ]
   },
   {
@@ -23863,8 +23863,6 @@
       "MATH 255"
     ],
     "depn": [
-      "STAT 321",
-      "MECH 466",
       "BMEG 320",
       "ELEC 321",
       "ELEC 331",
@@ -23873,7 +23871,9 @@
       "ELEC 422",
       "ELEC 431",
       "ELEC 434",
-      "ELEC 471"
+      "ELEC 471",
+      "MECH 466",
+      "STAT 321"
     ]
   },
   {
@@ -23916,8 +23916,8 @@
       "CPEN 211"
     ],
     "depn": [
-      "ELEC 391",
-      "CPEN 391"
+      "CPEN 391",
+      "ELEC 391"
     ]
   },
   {
@@ -23933,9 +23933,9 @@
       "ELEC 221"
     ],
     "depn": [
+      "CPEN 391",
       "ELEC 371",
-      "ELEC 391",
-      "CPEN 391"
+      "ELEC 391"
     ]
   },
   {
@@ -23971,10 +23971,10 @@
       "MECH 221"
     ],
     "depn": [
-      "MECH 422",
-      "MECH 423",
       "ELEC 343",
-      "ELEC 401"
+      "ELEC 401",
+      "MECH 422",
+      "MECH 423"
     ]
   },
   {
@@ -24106,8 +24106,8 @@
       "ELEC 302"
     ],
     "depn": [
-      "MECH 420",
-      "ELEC 452"
+      "ELEC 452",
+      "MECH 420"
     ]
   },
   {
@@ -24123,8 +24123,8 @@
       "MECH 221"
     ],
     "depn": [
-      "MECH 422",
-      "ELEC 451"
+      "ELEC 451",
+      "MECH 422"
     ]
   },
   {
@@ -24750,8 +24750,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ENGL&course=100",
     "desc": "A writing-intensive introduction to the disciplines of literary studies through the exploration of texts in their critical and theoretical contexts. Fulfils the first-year component of the Faculty of Arts Writing and Research Requirement. Open only to students in the Faculty of Arts. Recommended for students intending to become English majors. Essays are required. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "ENVE 201",
-      "COMM 390"
+      "COMM 390",
+      "ENVE 201"
     ]
   },
   {
@@ -24761,18 +24761,18 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ENGL&course=110",
     "desc": "Study of selected examples of poetry, fiction, and drama. Essays are required. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "APSC 201",
+      "APSC 202",
+      "BMEG 201",
+      "CHBE 201",
       "CIVL 201",
       "CIVL 203",
-      "BMEG 201",
+      "CPEN 281",
+      "ELEC 281",
+      "ENPH 259",
       "IGEN 201",
       "MANU 201",
-      "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201",
-      "APSC 202"
+      "MTRL 201"
     ]
   },
   {
@@ -24782,18 +24782,18 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ENGL&course=111",
     "desc": "Study of a selection of prose texts ranging in length from the essay to the book, with emphasis on writing of the twentieth century. Essays are required. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "APSC 201",
+      "APSC 202",
+      "BMEG 201",
+      "CHBE 201",
       "CIVL 201",
       "CIVL 203",
-      "BMEG 201",
+      "CPEN 281",
+      "ELEC 281",
+      "ENPH 259",
       "IGEN 201",
       "MANU 201",
-      "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201",
-      "APSC 202"
+      "MTRL 201"
     ]
   },
   {
@@ -24803,19 +24803,19 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ENGL&course=120",
     "desc": "Enriched study of selected works of literature from a number of critical perspectives. Open to students with a BC-equivalent mark of \"A\" (86%) in English 12 or \"B+\" (80%) in English Literature 12. Essays are required. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "APSC 201",
+      "APSC 202",
+      "BMEG 201",
+      "CHBE 201",
       "CIVL 201",
       "CIVL 203",
-      "BMEG 201",
+      "COMM 390",
+      "CPEN 281",
+      "ELEC 281",
+      "ENPH 259",
       "IGEN 201",
       "MANU 201",
-      "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
-      "COMM 390",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201",
-      "APSC 202"
+      "MTRL 201"
     ]
   },
   {
@@ -24825,19 +24825,19 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ENGL&course=121",
     "desc": "Enriched study of various theories of literature. Open to students with a BC-equivalent mark of \"A\" (86%) in English 12 or \"B+\" (80%) in English Literature 12. Essays are required. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "APSC 201",
+      "APSC 202",
+      "BMEG 201",
+      "CHBE 201",
       "CIVL 201",
       "CIVL 203",
-      "BMEG 201",
+      "COMM 390",
+      "CPEN 281",
+      "ELEC 281",
+      "ENPH 259",
       "IGEN 201",
       "MANU 201",
-      "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
-      "COMM 390",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201",
-      "APSC 202"
+      "MTRL 201"
     ]
   },
   {
@@ -25326,8 +25326,8 @@
       "WRDS 350"
     ],
     "depn": [
-      "LING 415",
-      "ENGL 319"
+      "ENGL 319",
+      "LING 415"
     ]
   },
   {
@@ -25473,8 +25473,8 @@
       "WRDS 350"
     ],
     "depn": [
-      "LING 242",
-      "ENGL 319"
+      "ENGL 319",
+      "LING 242"
     ]
   },
   {
@@ -26297,9 +26297,9 @@
       "ENPH 259"
     ],
     "depn": [
+      "ELEC 315",
       "ENPH 353",
-      "ENPH 459",
-      "ELEC 315"
+      "ENPH 459"
     ]
   },
   {
@@ -26383,8 +26383,8 @@
       "PHYS 170"
     ],
     "depn": [
-      "MECH 466",
       "MATH 428",
+      "MECH 466",
       "PHYS 306",
       "PHYS 350"
     ]
@@ -26651,9 +26651,9 @@
     "prer": "Open to all students with second-year, or higher, standing.",
     "preq": [],
     "depn": [
-      "SCIE 420",
       "APBI 319",
-      "ENVR 440"
+      "ENVR 440",
+      "SCIE 420"
     ]
   },
   {
@@ -26665,12 +26665,12 @@
     "prer": "Open to all students with third-year, or higher, standing in the Faculty of Science.",
     "preq": [],
     "depn": [
-      "SCIE 420",
       "APBI 319",
       "ENVR 400",
       "ENVR 430",
       "ENVR 449",
-      "EOSC 410"
+      "EOSC 410",
+      "SCIE 420"
     ]
   },
   {
@@ -26773,9 +26773,9 @@
       "EOSC 111"
     ],
     "depn": [
-      "GEOS 206",
       "EOSC 330",
-      "EOSC 426"
+      "EOSC 426",
+      "GEOS 206"
     ]
   },
   {
@@ -26796,9 +26796,9 @@
       "EOSC 111"
     ],
     "depn": [
+      "ENST 312",
       "EOSC 426",
-      "GEOG 312",
-      "ENST 312"
+      "GEOG 312"
     ]
   },
   {
@@ -26859,18 +26859,18 @@
       "SCIE 001"
     ],
     "depn": [
-      "CPSC 203",
-      "CPSC 302",
-      "CPSC 303",
       "ASTR 205",
       "ASTR 300",
       "ASTR 407",
+      "ATSC 303",
+      "ATSC 313",
+      "CPSC 203",
+      "CPSC 302",
+      "CPSC 303",
       "EOSC 213",
       "EOSC 410",
       "EOSC 442",
       "EOSC 471",
-      "ATSC 303",
-      "ATSC 313",
       "PHYS 410"
     ]
   },
@@ -27016,9 +27016,9 @@
       "PHYS 108"
     ],
     "depn": [
+      "ATSC 404",
       "EOSC 352",
-      "EOSC 410",
-      "ATSC 404"
+      "EOSC 410"
     ]
   },
   {
@@ -27110,9 +27110,9 @@
       "EOSC 222"
     ],
     "depn": [
+      "EOSC 421",
       "GEOS 308",
-      "GEOS 405",
-      "EOSC 421"
+      "GEOS 405"
     ]
   },
   {
@@ -27157,10 +27157,10 @@
       "EOSC 222"
     ],
     "depn": [
-      "MINE 485",
       "EOSC 328",
       "EOSC 332",
-      "EOSC 422"
+      "EOSC 422",
+      "MINE 485"
     ]
   },
   {
@@ -27230,12 +27230,12 @@
       "SCIE 001"
     ],
     "depn": [
-      "GEOS 415",
       "ENVR 420",
       "EOSC 428",
       "EOSC 429",
       "EOSC 433",
-      "EOSC 434"
+      "EOSC 434",
+      "GEOS 415"
     ]
   },
   {
@@ -27251,12 +27251,12 @@
       "EOSC 210"
     ],
     "depn": [
+      "EOSC 328",
+      "EOSC 434",
       "GEOS 308",
       "GEOS 405",
       "GEOS 406",
-      "GEOS 415",
-      "EOSC 328",
-      "EOSC 434"
+      "GEOS 415"
     ]
   },
   {
@@ -27322,9 +27322,9 @@
       "PHYS 157"
     ],
     "depn": [
+      "EOSC 442",
       "GEOS 302",
-      "SCIE 420",
-      "EOSC 442"
+      "SCIE 420"
     ]
   },
   {
@@ -27935,10 +27935,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=EPSE&course=312",
     "desc": "An examination of all groups of exceptional children in terms of definition, incidence, characteristics, diagnosis and treatment. Prerequisite to most other courses in Special Education. Can be taken concurrently with several other introductory courses in Special Education. [3-0]",
     "depn": [
+      "EDCP 415",
       "EPSE 316",
       "EPSE 390",
-      "EPSE 404",
-      "EDCP 415"
+      "EPSE 404"
     ]
   },
   {
@@ -27973,10 +27973,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=EPSE&course=317",
     "desc": "The teacher's role in dealing with major developmental and special educational issues and problems within the regular classroom program, including working with supportive services, parents, and communities. Designated sections will focus on early childhood, middle childhood or adolescence. Pass/Fail. This course is not eligible for Credit/D/Fail grading. [3-0-0]",
     "depn": [
+      "EDCP 415",
       "EPSE 316",
       "EPSE 390",
-      "EPSE 404",
-      "EDCP 415"
+      "EPSE 404"
     ]
   },
   {
@@ -31207,9 +31207,11 @@
       "FRST 200"
     ],
     "depn": [
-      "GEOS 303",
-      "GEOS 307",
-      "GEOS 407",
+      "APBI 423",
+      "BIOL 314",
+      "BIOL 416",
+      "BIOL 424",
+      "CONS 314",
       "FRST 211",
       "FRST 305",
       "FRST 350",
@@ -31218,12 +31220,10 @@
       "FRST 403",
       "FRST 444",
       "FRST 495",
-      "BIOL 314",
-      "BIOL 416",
-      "BIOL 424",
-      "APBI 423",
-      "UFOR 403",
-      "CONS 314"
+      "GEOS 303",
+      "GEOS 307",
+      "GEOS 407",
+      "UFOR 403"
     ]
   },
   {
@@ -31262,10 +31262,10 @@
       "FRST 200"
     ],
     "depn": [
+      "CONS 453",
       "FRST 307",
       "FRST 320",
-      "FRST 413",
-      "CONS 453"
+      "FRST 413"
     ]
   },
   {
@@ -31279,9 +31279,9 @@
       "FRST 201"
     ],
     "depn": [
+      "CONS 453",
       "FRST 307",
-      "FRST 320",
-      "CONS 453"
+      "FRST 320"
     ]
   },
   {
@@ -31300,25 +31300,25 @@
       "MATH 190"
     ],
     "depn": [
-      "GEOS 403",
-      "FRST 239",
-      "FRST 430",
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
-      "ECON 398",
-      "CPSC 444",
+      "APBI 462",
       "ASTR 333",
       "BIOL 403",
-      "APBI 462",
+      "CONS 453",
+      "CPSC 444",
+      "ECON 398",
       "FNH 303",
       "FNH 398",
       "FNH 403",
       "FRE 385",
       "FRE 474",
-      "CONS 453",
+      "FRST 239",
+      "FRST 430",
+      "GEOS 403",
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443",
       "WOOD 330",
       "WOOD 335"
     ]
@@ -31567,8 +31567,8 @@
     "prer": "Third- or fourth-year standing.",
     "preq": [],
     "depn": [
-      "GEOS 403",
-      "FRST 485"
+      "FRST 485",
+      "GEOS 403"
     ]
   },
   {
@@ -31596,9 +31596,9 @@
       "BIOL 306"
     ],
     "depn": [
-      "FRST 495",
       "APBI 495",
-      "CONS 495"
+      "CONS 495",
+      "FRST 495"
     ]
   },
   {
@@ -32138,10 +32138,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOG&course=121",
     "desc": "Human geography of the modern world with particular attention to human-environment relationships, urbanization, and regional growth; trade and communications; environment and war; environmental governance and sustainability.",
     "depn": [
+      "ENST 313",
       "GEOG 313",
       "GEOG 364",
-      "GEOG 432",
-      "ENST 313"
+      "GEOG 432"
     ]
   },
   {
@@ -32172,11 +32172,11 @@
     "prer": "Second-year standing.",
     "preq": [],
     "depn": [
-      "GEOS 302",
-      "SCIE 420",
+      "ENST 314",
       "ENVR 440",
       "GEOG 314",
-      "ENST 314"
+      "GEOS 302",
+      "SCIE 420"
     ]
   },
   {
@@ -32221,11 +32221,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOG&course=310",
     "desc": "Concepts of environment, resources and sustainability; the roles of physical and human geography in understanding the interaction of humans and the environment; introduction to management of environment-resource systems. Credit will be granted for only one of GEOG 310 or ENST 310.",
     "depn": [
-      "SCIE 420",
+      "ENST 310",
       "GEOG 318",
       "GEOG 410",
       "GEOG 412",
-      "ENST 310"
+      "SCIE 420"
     ]
   },
   {
@@ -32467,9 +32467,9 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOG&course=374",
     "desc": "Introduction to statistical techniques and their application to geographical problems. Priority enrolment for honours and major students in Geography. Consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414.",
     "depn": [
-      "CPSC 444",
+      "APBI 462",
       "ASTR 333",
-      "APBI 462"
+      "CPSC 444"
     ]
   },
   {
@@ -32775,15 +32775,15 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOS&course=102",
     "desc": "Energy and water in the Earth-Atmosphere system, global climates and climate change, ecosystem properties and processes, human impacts. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-2*-0]",
     "depn": [
-      "GEOS 200",
-      "GEOS 207",
-      "GEOS 302",
-      "GEOS 372",
+      "ENST 312",
+      "ENST 314",
       "GEOG 312",
       "GEOG 314",
       "GEOG 316",
-      "ENST 312",
-      "ENST 314"
+      "GEOS 200",
+      "GEOS 207",
+      "GEOS 302",
+      "GEOS 372"
     ]
   },
   {
@@ -32793,11 +32793,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOS&course=103",
     "desc": "Physical processes acting at the Earth's surface; water cycle; landforms; human impacts. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-2*-0]",
     "depn": [
-      "GEOS 206",
-      "GEOS 372",
+      "ENST 314",
       "GEOG 314",
       "GEOG 316",
-      "ENST 314"
+      "GEOS 206",
+      "GEOS 372"
     ]
   },
   {
@@ -32812,16 +32812,16 @@
       "GEOB 102"
     ],
     "depn": [
+      "ATSC 303",
+      "ENST 312",
+      "GEOG 312",
       "GEOS 300",
       "GEOS 302",
       "GEOS 304",
       "GEOS 305",
       "GEOS 309",
       "GEOS 402",
-      "GEOS 403",
-      "ATSC 303",
-      "GEOG 312",
-      "ENST 312"
+      "GEOS 403"
     ]
   },
   {
@@ -32831,14 +32831,14 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GEOS&course=204",
     "desc": "Basic principles and processes of climatology. Energy and water balance concepts. Weather systems and climate change, microclimate of soils, crops, forests, and animals. Credit will be granted for only one of GEOS (or GEOB) 200, GEOS (or GEOB) 204, or APBI 244. [3-2-0]",
     "depn": [
+      "ENST 312",
+      "GEOG 312",
       "GEOS 300",
       "GEOS 302",
       "GEOS 305",
       "GEOS 309",
       "GEOS 401",
-      "GEOS 403",
-      "GEOG 312",
-      "ENST 312"
+      "GEOS 403"
     ]
   },
   {
@@ -32877,13 +32877,13 @@
       "GEOS 102"
     ],
     "depn": [
+      "BIOL 314",
+      "BIOL 424",
       "GEOS 302",
       "GEOS 303",
       "GEOS 307",
       "GEOS 309",
-      "GEOS 407",
-      "BIOL 314",
-      "BIOL 424"
+      "GEOS 407"
     ]
   },
   {
@@ -32913,9 +32913,9 @@
       "ATSC 201"
     ],
     "depn": [
+      "ATSC 398",
       "GEOS 401",
-      "GEOS 402",
-      "ATSC 398"
+      "GEOS 402"
     ]
   },
   {
@@ -32987,10 +32987,10 @@
       "CHEM 123"
     ],
     "depn": [
+      "ENVR 420",
       "GEOS 403",
       "GEOS 408",
-      "GEOS 415",
-      "ENVR 420"
+      "GEOS 415"
     ]
   },
   {
@@ -33890,6 +33890,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=GRSJ&course=101",
     "desc": "An overview of intersectional feminist debates and theoretical traditions. Credit will be granted for only one of WMST 100 or GRSJ 101.",
     "depn": [
+      "CSIS 200",
+      "CSIS 301",
       "GRSJ 200",
       "GRSJ 301",
       "GRSJ 302",
@@ -33909,9 +33911,7 @@
       "GRSJ 410",
       "GRSJ 422",
       "GRSJ 425",
-      "GRSJ 480",
-      "CSIS 200",
-      "CSIS 301"
+      "GRSJ 480"
     ]
   },
   {
@@ -36877,8 +36877,8 @@
     "prer": "Third-year or higher standing in the Faculty of Science.",
     "preq": [],
     "depn": [
-      "SCIE 420",
-      "ISCI 361"
+      "ISCI 361",
+      "SCIE 420"
     ]
   },
   {
@@ -36892,8 +36892,8 @@
       "ISCI 360"
     ],
     "depn": [
-      "SCIE 420",
-      "ISCI 461"
+      "ISCI 461",
+      "SCIE 420"
     ]
   },
   {
@@ -37447,9 +37447,9 @@
       "JAPN 200"
     ],
     "depn": [
+      "CHIN 388",
       "JAPN 320",
-      "JAPN 360",
-      "CHIN 388"
+      "JAPN 360"
     ]
   },
   {
@@ -37472,9 +37472,9 @@
       "JAPN 160"
     ],
     "depn": [
+      "CHIN 388",
       "JAPN 320",
-      "JAPN 360",
-      "CHIN 388"
+      "JAPN 360"
     ]
   },
   {
@@ -40560,10 +40560,10 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=LING&course=100",
     "desc": "Study of language as a universal and uniquely human cognitive system: What universals do all languages share and how do languages differ? An investigation of sound systems, word-building, grammatical principles, language change, dialect variation, language acquisition, neurolinguistics. Recommended but not required for an honours, major, or minor in linquistics or speech sciences.",
     "depn": [
+      "AUDI 400",
       "LING 242",
       "LING 270",
-      "LING 425",
-      "AUDI 400"
+      "LING 425"
     ]
   },
   {
@@ -40607,6 +40607,7 @@
     "desc": "Introduction to phonetics and phonology; training in the identification and production of speech sounds; principles and methods for describing and writing the sound system of a language; phonological theory with reference to selected languages; the interface between phonology and morphology. Analytical practice and seminar discussion.",
     "depn": [
       "ANTH 417",
+      "EDUC 342",
       "LING 242",
       "LING 311",
       "LING 313",
@@ -40616,8 +40617,7 @@
       "LING 440",
       "LING 445",
       "PSYC 333",
-      "PSYC 336",
-      "EDUC 342"
+      "PSYC 336"
     ]
   },
   {
@@ -41746,9 +41746,9 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MANU&course=230",
     "desc": "Theory, operational constraints, and problem solving in traditional manufacturing processes. Casting, heat treatment, bulk deformation (i.e. rolling, extrusion, drawing), machining, joining, and shaping of composites. Experiments in process and product characterization. This course is not eligible for Credit/D/Fail grading. [1-2-0; 1-2-0]",
     "depn": [
-      "MECH 368",
       "MANU 330",
-      "MANU 430"
+      "MANU 430",
+      "MECH 368"
     ]
   },
   {
@@ -41984,7 +41984,9 @@
     "prer": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -41998,18 +42000,16 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42029,9 +42029,18 @@
       "MATH 184"
     ],
     "depn": [
-      "STAT 200",
-      "STAT 241",
-      "STAT 251",
+      "ASTR 200",
+      "ATSC 313",
+      "BIOL 300",
+      "BIOL 401",
+      "CAPS 301",
+      "CHBE 220",
+      "CHBE 381",
+      "CHEM 404",
+      "CIVL 215",
+      "CIVL 230",
+      "CPSC 302",
+      "CPSC 303",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42044,21 +42053,6 @@
       "ECON 323",
       "ECON 325",
       "ECON 327",
-      "CHEM 404",
-      "CPSC 302",
-      "CPSC 303",
-      "MECH 220",
-      "MECH 221",
-      "MECH 230",
-      "MECH 232",
-      "MECH 260",
-      "ASTR 200",
-      "BIOL 300",
-      "BIOL 401",
-      "CIVL 215",
-      "CIVL 230",
-      "MANU 261",
-      "MANU 265",
       "ELEC 201",
       "ELEC 202",
       "ELEC 311",
@@ -42069,6 +42063,8 @@
       "EOSC 354",
       "EOSC 355",
       "EOSC 372",
+      "MANU 261",
+      "MANU 265",
       "MATH 200",
       "MATH 210",
       "MATH 215",
@@ -42083,12 +42079,16 @@
       "MATH 256",
       "MATH 258",
       "MATH 360",
-      "CHBE 220",
-      "CHBE 381",
-      "CAPS 301",
-      "ATSC 313",
+      "MECH 220",
+      "MECH 221",
+      "MECH 230",
+      "MECH 232",
+      "MECH 260",
       "PHYS 200",
       "PHYS 333",
+      "STAT 200",
+      "STAT 241",
+      "STAT 251",
       "WOOD 244",
       "WOOD 276",
       "WOOD 276"
@@ -42103,7 +42103,9 @@
     "prer": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42117,18 +42119,16 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42148,9 +42148,15 @@
       "MATH 184"
     ],
     "depn": [
-      "STAT 200",
-      "STAT 241",
-      "STAT 251",
+      "ASTR 200",
+      "ATSC 313",
+      "BIOL 300",
+      "BIOL 401",
+      "CAPS 301",
+      "CHBE 381",
+      "CHEM 404",
+      "CPSC 302",
+      "CPSC 303",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42163,12 +42169,6 @@
       "ECON 323",
       "ECON 325",
       "ECON 327",
-      "CHEM 404",
-      "CPSC 302",
-      "CPSC 303",
-      "ASTR 200",
-      "BIOL 300",
-      "BIOL 401",
       "EOSC 211",
       "EOSC 256",
       "EOSC 329",
@@ -42188,11 +42188,11 @@
       "MATH 255",
       "MATH 256",
       "MATH 360",
-      "CHBE 381",
-      "CAPS 301",
-      "ATSC 313",
       "PHYS 200",
       "PHYS 333",
+      "STAT 200",
+      "STAT 241",
+      "STAT 251",
       "WOOD 244",
       "WOOD 276",
       "WOOD 276"
@@ -42207,7 +42207,9 @@
     "prer": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42221,18 +42223,16 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42252,9 +42252,15 @@
       "MATH 184"
     ],
     "depn": [
-      "STAT 200",
-      "STAT 241",
-      "STAT 251",
+      "ASTR 200",
+      "ATSC 313",
+      "BIOL 300",
+      "BIOL 401",
+      "CAPS 301",
+      "CHBE 381",
+      "CHEM 404",
+      "CPSC 302",
+      "CPSC 303",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42267,12 +42273,6 @@
       "ECON 323",
       "ECON 325",
       "ECON 327",
-      "CHEM 404",
-      "CPSC 302",
-      "CPSC 303",
-      "ASTR 200",
-      "BIOL 300",
-      "BIOL 401",
       "EOSC 211",
       "EOSC 256",
       "EOSC 329",
@@ -42280,6 +42280,7 @@
       "EOSC 354",
       "EOSC 355",
       "EOSC 372",
+      "FRE 295",
       "MATH 200",
       "MATH 210",
       "MATH 215",
@@ -42292,12 +42293,11 @@
       "MATH 255",
       "MATH 256",
       "MATH 360",
-      "CHBE 381",
-      "CAPS 301",
-      "ATSC 313",
       "PHYS 200",
       "PHYS 333",
-      "FRE 295",
+      "STAT 200",
+      "STAT 241",
+      "STAT 251",
       "WOOD 244",
       "WOOD 276",
       "WOOD 276"
@@ -42312,7 +42312,9 @@
     "prer": "A grade of 65% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42326,17 +42328,15 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42348,7 +42348,9 @@
     "prer": "High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42362,17 +42364,15 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
-      "PHYS 170"
+      "PHYS 170",
+      "STAT 301"
     ]
   },
   {
@@ -42391,9 +42391,14 @@
       "MATH 184"
     ],
     "depn": [
-      "STAT 200",
-      "STAT 241",
-      "STAT 251",
+      "ASTR 200",
+      "ATSC 313",
+      "BIOL 300",
+      "BIOL 401",
+      "CAPS 301",
+      "CHEM 404",
+      "CPSC 302",
+      "CPSC 303",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42406,12 +42411,6 @@
       "ECON 323",
       "ECON 325",
       "ECON 327",
-      "CHEM 404",
-      "CPSC 302",
-      "CPSC 303",
-      "ASTR 200",
-      "BIOL 300",
-      "BIOL 401",
       "EOSC 211",
       "EOSC 256",
       "EOSC 329",
@@ -42431,10 +42430,11 @@
       "MATH 255",
       "MATH 256",
       "MATH 360",
-      "CAPS 301",
-      "ATSC 313",
       "PHYS 200",
       "PHYS 333",
+      "STAT 200",
+      "STAT 241",
+      "STAT 251",
       "WOOD 244",
       "WOOD 276",
       "WOOD 276"
@@ -42451,28 +42451,22 @@
       "MATH 101"
     ],
     "depn": [
-      "STAT 306",
-      "STAT 460",
+      "CHBE 241",
       "CHEM 401",
       "CHEM 412",
+      "CIVL 231",
+      "CIVL 301",
+      "CIVL 332",
       "CPSC 302",
       "CPSC 303",
       "CPSC 314",
       "CPSC 340",
       "CPSC 424",
       "CPSC 427",
-      "MECH 220",
-      "MECH 221",
-      "MECH 230",
-      "MECH 232",
-      "MECH 280",
-      "CIVL 231",
-      "CIVL 301",
-      "CIVL 332",
-      "MANU 261",
-      "MANU 265",
       "ELEC 204",
       "EOSC 213",
+      "MANU 261",
+      "MANU 265",
       "MATH 215",
       "MATH 254",
       "MATH 255",
@@ -42489,8 +42483,14 @@
       "MATH 342",
       "MATH 344",
       "MATH 424",
-      "CHBE 241",
-      "PHYS 216"
+      "MECH 220",
+      "MECH 221",
+      "MECH 230",
+      "MECH 232",
+      "MECH 280",
+      "PHYS 216",
+      "STAT 306",
+      "STAT 460"
     ]
   },
   {
@@ -42502,7 +42502,9 @@
     "prer": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42516,18 +42518,16 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42539,7 +42539,9 @@
     "prer": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
     "preq": [],
     "depn": [
-      "STAT 301",
+      "CHEM 205",
+      "COMM 473",
+      "COMR 473",
       "ECON 204",
       "ECON 301",
       "ECON 302",
@@ -42553,18 +42555,16 @@
       "ECON 325",
       "ECON 327",
       "ECON 390",
-      "CHEM 205",
       "LFS 252",
-      "COMR 473",
       "MATH 101",
       "MATH 103",
       "MATH 105",
       "MATH 121",
       "MATH 221",
-      "COMM 473",
       "PHYS 118",
       "PHYS 170",
-      "PHYS 330"
+      "PHYS 330",
+      "STAT 301"
     ]
   },
   {
@@ -42591,8 +42591,7 @@
       "SCIE 001"
     ],
     "depn": [
-      "STAT 302",
-      "ECON 420",
+      "ASTR 333",
       "CHEM 304",
       "CHEM 305",
       "CHEM 312",
@@ -42602,7 +42601,7 @@
       "CPSC 424",
       "CPSC 425",
       "CPSC 427",
-      "ASTR 333",
+      "ECON 420",
       "ENPH 257",
       "EOSC 213",
       "EOSC 350",
@@ -42615,7 +42614,8 @@
       "MATH 307",
       "MATH 317",
       "MATH 320",
-      "PHYS 404"
+      "PHYS 404",
+      "STAT 302"
     ]
   },
   {
@@ -42676,6 +42676,8 @@
     ],
     "depn": [
       "ASTR 406",
+      "ATSC 405",
+      "ATSC 409",
       "MATH 257",
       "MATH 301",
       "MATH 305",
@@ -42684,8 +42686,6 @@
       "MATH 345",
       "MATH 361",
       "MATH 428",
-      "ATSC 405",
-      "ATSC 409",
       "PHYS 301",
       "PHYS 306",
       "PHYS 312",
@@ -42723,7 +42723,10 @@
       "MATH 223"
     ],
     "depn": [
-      "STAT 302",
+      "ASTR 333",
+      "ASTR 407",
+      "ATSC 404",
+      "BMEG 371",
       "CHEM 304",
       "CHEM 305",
       "CHEM 312",
@@ -42732,10 +42735,6 @@
       "CPSC 340",
       "CPSC 424",
       "CPSC 427",
-      "MECH 280",
-      "ASTR 333",
-      "ASTR 407",
-      "BMEG 371",
       "ENPH 257",
       "MATH 220",
       "MATH 264",
@@ -42746,11 +42745,12 @@
       "MATH 320",
       "MATH 424",
       "MATH 425",
-      "ATSC 404",
+      "MECH 280",
       "PHYS 301",
       "PHYS 354",
       "PHYS 404",
-      "PHYS 407"
+      "PHYS 407",
+      "STAT 302"
     ]
   },
   {
@@ -42812,9 +42812,6 @@
       "MATH 100"
     ],
     "depn": [
-      "STAT 306",
-      "STAT 460",
-      "ECON 323",
       "CHEM 401",
       "CHEM 412",
       "CPSC 302",
@@ -42824,6 +42821,7 @@
       "CPSC 424",
       "CPSC 425",
       "CPSC 427",
+      "ECON 323",
       "EOSC 213",
       "MATH 215",
       "MATH 254",
@@ -42842,7 +42840,9 @@
       "MATH 344",
       "MATH 424",
       "MATH 425",
-      "PHYS 216"
+      "PHYS 216",
+      "STAT 306",
+      "STAT 460"
     ]
   },
   {
@@ -42860,8 +42860,6 @@
       "SCIE 001"
     ],
     "depn": [
-      "STAT 306",
-      "STAT 460",
       "CHEM 401",
       "CHEM 412",
       "CPSC 302",
@@ -42892,7 +42890,9 @@
       "MATH 425",
       "MATH 442",
       "MATH 443",
-      "PHYS 216"
+      "PHYS 216",
+      "STAT 306",
+      "STAT 460"
     ]
   },
   {
@@ -42916,7 +42916,6 @@
       "MATH 223"
     ],
     "depn": [
-      "STAT 302",
       "CHEM 304",
       "CHEM 305",
       "CHEM 312",
@@ -42946,7 +42945,8 @@
       "MATH 442",
       "MATH 443",
       "MATH 444",
-      "PHYS 404"
+      "PHYS 404",
+      "STAT 302"
     ]
   },
   {
@@ -42992,7 +42992,11 @@
       "SCIE 001"
     ],
     "depn": [
-      "STAT 302",
+      "ASTR 333",
+      "BMEG 220",
+      "BMEG 371",
+      "CHBE 350",
+      "CHBE 352",
       "CHEM 304",
       "CHEM 305",
       "CHEM 312",
@@ -43001,10 +43005,6 @@
       "CPSC 340",
       "CPSC 424",
       "CPSC 427",
-      "MECH 280",
-      "ASTR 333",
-      "BMEG 220",
-      "BMEG 371",
       "ELEC 211",
       "ELEC 311",
       "EOSC 213",
@@ -43017,8 +43017,8 @@
       "MATH 307",
       "MATH 317",
       "MATH 320",
-      "CHBE 350",
-      "CHBE 352"
+      "MECH 280",
+      "STAT 302"
     ]
   },
   {
@@ -43040,7 +43040,6 @@
       "MECH 225"
     ],
     "depn": [
-      "STAT 302",
       "CPSC 340",
       "ENPH 257",
       "MATH 220",
@@ -43051,7 +43050,8 @@
       "MATH 307",
       "MATH 320",
       "MATH 424",
-      "MATH 425"
+      "MATH 425",
+      "STAT 302"
     ]
   },
   {
@@ -43080,16 +43080,14 @@
       "MATH 254"
     ],
     "depn": [
-      "MINE 436",
-      "MECH 380",
-      "MECH 433",
-      "MECH 466",
+      "ATSC 409",
       "BMEG 371",
-      "MANU 386",
-      "MANU 487",
-      "ENPH 257",
+      "CHBE 356",
       "ELEC 202",
       "ELEC 221",
+      "ENPH 257",
+      "MANU 386",
+      "MANU 487",
       "MATH 257",
       "MATH 301",
       "MATH 305",
@@ -43098,8 +43096,10 @@
       "MATH 345",
       "MATH 361",
       "MATH 428",
-      "CHBE 356",
-      "ATSC 409",
+      "MECH 380",
+      "MECH 433",
+      "MECH 466",
+      "MINE 436",
       "PHYS 301",
       "PHYS 306",
       "PHYS 354",
@@ -43133,15 +43133,16 @@
       "MATH 263"
     ],
     "depn": [
-      "MECH 433",
-      "CIVL 303",
-      "CIVL 315",
-      "CIVL 416",
-      "CIVL 417",
+      "ATSC 409",
       "BMEG 220",
       "BMEG 250",
       "BMEG 321",
       "BMEG 371",
+      "CHBE 356",
+      "CIVL 303",
+      "CIVL 315",
+      "CIVL 416",
+      "CIVL 417",
       "ELEC 202",
       "ELEC 221",
       "ELEC 311",
@@ -43158,8 +43159,7 @@
       "MATH 405",
       "MATH 406",
       "MATH 428",
-      "CHBE 356",
-      "ATSC 409",
+      "MECH 433",
       "PHYS 306"
     ]
   },
@@ -43314,16 +43314,16 @@
       "MATH 254"
     ],
     "depn": [
-      "STAT 305",
-      "STAT 306",
-      "STAT 443",
-      "LING 342",
       "CPSC 340",
       "ELEC 422",
       "ELEC 431",
+      "LING 342",
       "MATH 303",
       "PHYS 305",
-      "PHYS 403"
+      "PHYS 403",
+      "STAT 305",
+      "STAT 306",
+      "STAT 443"
     ]
   },
   {
@@ -43487,13 +43487,13 @@
     "depn": [
       "ASTR 404",
       "ASTR 407",
+      "ATSC 404",
       "EOSC 450",
       "EOSC 453",
       "MATH 400",
       "MATH 401",
       "MATH 405",
       "MATH 406",
-      "ATSC 404",
       "PHYS 410"
     ]
   },
@@ -43514,10 +43514,10 @@
     ],
     "depn": [
       "ASTR 407",
+      "ATSC 404",
       "EOSC 352",
       "MATH 424",
       "MATH 425",
-      "ATSC 404",
       "PHYS 301",
       "PHYS 354",
       "PHYS 407"
@@ -43549,12 +43549,12 @@
       "PHYS 312"
     ],
     "depn": [
-      "STAT 443",
       "CPSC 340",
       "ELEC 422",
       "ELEC 431",
       "PHYS 305",
-      "PHYS 403"
+      "PHYS 403",
+      "STAT 443"
     ]
   },
   {
@@ -43590,13 +43590,13 @@
       "MATH 220"
     ],
     "depn": [
-      "STAT 460",
       "MATH 321",
       "MATH 402",
       "MATH 403",
       "MATH 412",
       "MATH 425",
-      "MATH 440"
+      "MATH 440",
+      "STAT 460"
     ]
   },
   {
@@ -44446,15 +44446,15 @@
       "MECH 224"
     ],
     "depn": [
+      "CPEN 312",
+      "ELEC 302",
+      "ELEC 344",
+      "IGEN 450",
+      "IGEN 451",
       "MECH 222",
       "MECH 223",
       "MECH 435",
-      "MECH 466",
-      "IGEN 450",
-      "IGEN 451",
-      "ELEC 302",
-      "ELEC 344",
-      "CPEN 312"
+      "MECH 466"
     ]
   },
   {
@@ -44509,6 +44509,7 @@
       "MECH 221"
     ],
     "depn": [
+      "MATH 358",
       "MECH 305",
       "MECH 306",
       "MECH 329",
@@ -44517,8 +44518,7 @@
       "MECH 366",
       "MECH 368",
       "MECH 436",
-      "MECH 463",
-      "MATH 358"
+      "MECH 463"
     ]
   },
   {
@@ -44532,6 +44532,7 @@
       "MECH 222"
     ],
     "depn": [
+      "MATH 358",
       "MECH 305",
       "MECH 306",
       "MECH 327",
@@ -44539,8 +44540,7 @@
       "MECH 366",
       "MECH 375",
       "MECH 380",
-      "MECH 433",
-      "MATH 358"
+      "MECH 433"
     ]
   },
   {
@@ -44702,17 +44702,17 @@
       "APSC 180"
     ],
     "depn": [
-      "MINE 303",
+      "CIVL 210",
+      "IGEN 450",
+      "IGEN 451",
+      "MANU 380",
       "MECH 325",
       "MECH 329",
       "MECH 360",
       "MECH 426",
       "MECH 435",
       "MECH 463",
-      "CIVL 210",
-      "IGEN 450",
-      "IGEN 451",
-      "MANU 380",
+      "MINE 303",
       "MTRL 365",
       "MTRL 485"
     ]
@@ -44738,13 +44738,13 @@
       "PHYS 159"
     ],
     "depn": [
-      "MINE 436",
+      "CHBE 373",
+      "MANU 380",
       "MECH 327",
       "MECH 375",
       "MECH 380",
       "MECH 433",
-      "MANU 380",
-      "CHBE 373"
+      "MINE 436"
     ]
   },
   {
@@ -44885,6 +44885,7 @@
       "MECH 260"
     ],
     "depn": [
+      "CIVL 437",
       "MECH 420",
       "MECH 422",
       "MECH 436",
@@ -44894,8 +44895,7 @@
       "MECH 458",
       "MECH 459",
       "MECH 460",
-      "MECH 462",
-      "CIVL 437"
+      "MECH 462"
     ]
   },
   {
@@ -45711,14 +45711,14 @@
       "CHEM 121"
     ],
     "depn": [
+      "FNH 405",
+      "FNH 413",
       "MICB 202",
       "MICB 301",
       "MICB 322",
       "MICB 325",
       "MICB 353",
-      "MICB 425",
-      "FNH 405",
-      "FNH 413"
+      "MICB 425"
     ]
   },
   {
@@ -45736,16 +45736,16 @@
       "SCIE 001"
     ],
     "depn": [
-      "PATH 300",
-      "PATH 417",
+      "FNH 405",
+      "FNH 413",
       "MICB 302",
       "MICB 306",
       "MICB 308",
       "MICB 322",
       "MICB 398",
       "MICB 399",
-      "FNH 405",
-      "FNH 413"
+      "PATH 300",
+      "PATH 417"
     ]
   },
   {
@@ -45792,12 +45792,12 @@
       "MICB 202"
     ],
     "depn": [
+      "MEDG 410",
       "MICB 402",
       "MICB 404",
       "MICB 408",
       "MICB 412",
       "MICB 413",
-      "MEDG 410",
       "PSYC 469"
     ]
   },
@@ -45852,12 +45852,12 @@
       "MICB 202"
     ],
     "depn": [
+      "BIOL 335",
       "MICB 323",
       "MICB 401",
       "MICB 447",
       "MICB 448",
-      "MICB 449",
-      "BIOL 335"
+      "MICB 449"
     ]
   },
   {
@@ -45889,12 +45889,12 @@
       "BIOL 234"
     ],
     "depn": [
+      "FNH 430",
       "MICB 402",
       "MICB 405",
       "MICB 408",
       "MICB 413",
-      "MICB 425",
-      "FNH 430"
+      "MICB 425"
     ]
   },
   {
@@ -46493,10 +46493,10 @@
       "CIVL 230"
     ],
     "depn": [
+      "EOSC 433",
       "MINE 403",
       "MINE 485",
-      "MINE 491",
-      "EOSC 433"
+      "MINE 491"
     ]
   },
   {
@@ -47037,12 +47037,12 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MTRL&course=263",
     "desc": "Fluid statics; fluid mechanics; laminar and turbulent flow; equations of continuity and motion; boundary layers; flow in conduits and packed and fluidized beds; flow measurements. This course is not eligible for Credit/D/Fail grading. [2-0-2]",
     "depn": [
+      "CHBE 373",
+      "CHBE 488",
       "IGEN 450",
       "IGEN 451",
       "MANU 380",
-      "MTRL 363",
-      "CHBE 373",
-      "CHBE 488"
+      "MTRL 363"
     ]
   },
   {
@@ -47052,8 +47052,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MTRL&course=264",
     "desc": "Conduction, forced and natural convection, and radiation.  Heat transfer with fluid flow, applications of heat exchange, and solidification of castings. This course is not eligible for Credit/D/Fail grading. [2-0-2]",
     "depn": [
-      "MECH 462",
       "MANU 380",
+      "MECH 462",
       "MTRL 363"
     ]
   },
@@ -52510,11 +52510,11 @@
     "prer": "Not open to students with credit for PHYS 12. Principles of Mathematics 12 or Pre-calculus 12 is required; Physics 11 is required for first-year students, strongly recommended for others.",
     "preq": [],
     "depn": [
-      "GEOS 305",
       "ASTR 101",
       "ASTR 102",
       "BMEG 102",
       "CAPS 301",
+      "GEOS 305",
       "PHYS 101",
       "PHYS 106",
       "PHYS 107",
@@ -52548,12 +52548,11 @@
       "MATH 184"
     ],
     "depn": [
-      "GEOS 206",
-      "GEOS 408",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
-      "FNH 309",
+      "CAPS 301",
       "EOSC 250",
       "EOSC 256",
       "EOSC 340",
@@ -52561,8 +52560,9 @@
       "EOSC 355",
       "EOSC 372",
       "EOSC 471",
-      "CAPS 301",
-      "ATSC 313",
+      "FNH 309",
+      "GEOS 206",
+      "GEOS 408",
       "PHYS 102",
       "PHYS 108",
       "PHYS 118",
@@ -52593,11 +52593,11 @@
     ],
     "depn": [
       "ASTR 333",
+      "ATSC 301",
       "ENPH 257",
       "ENPH 259",
       "EOSC 450",
       "MATH 217",
-      "ATSC 301",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -52631,17 +52631,17 @@
       "MATH 184"
     ],
     "depn": [
-      "CHEM 404",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
+      "CHEM 404",
       "EOSC 250",
       "EOSC 256",
       "EOSC 340",
       "EOSC 354",
       "EOSC 355",
       "EOSC 372",
-      "ATSC 313",
       "PHYS 108",
       "PHYS 118",
       "PHYS 216",
@@ -52671,13 +52671,12 @@
       "MATH 184"
     ],
     "depn": [
-      "GEOS 206",
-      "GEOS 408",
-      "CHEM 404",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
-      "FNH 300",
+      "CAPS 301",
+      "CHEM 404",
       "EOSC 250",
       "EOSC 256",
       "EOSC 340",
@@ -52685,8 +52684,9 @@
       "EOSC 355",
       "EOSC 372",
       "EOSC 471",
-      "CAPS 301",
-      "ATSC 313",
+      "FNH 300",
+      "GEOS 206",
+      "GEOS 408",
       "PHYS 102",
       "PHYS 108",
       "PHYS 109",
@@ -52721,17 +52721,17 @@
       "MATH 121"
     ],
     "depn": [
-      "CHEM 404",
-      "MECH 280",
       "ASTR 333",
-      "ENPH 257",
-      "ENPH 259",
+      "ATSC 301",
+      "CHEM 404",
       "ELEC 201",
       "ELEC 204",
       "ELEC 211",
+      "ENPH 257",
+      "ENPH 259",
       "EOSC 450",
       "MATH 217",
-      "ATSC 301",
+      "MECH 280",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -52788,11 +52788,12 @@
       "MATH 184"
     ],
     "depn": [
-      "CHEM 404",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
-      "FNH 300",
+      "CAPS 301",
+      "CHEM 404",
       "EOSC 250",
       "EOSC 256",
       "EOSC 340",
@@ -52800,8 +52801,7 @@
       "EOSC 355",
       "EOSC 372",
       "EOSC 471",
-      "CAPS 301",
-      "ATSC 313",
+      "FNH 300",
       "PHYS 108",
       "PHYS 118",
       "PHYS 216",
@@ -52842,17 +52842,17 @@
       "MATH 121"
     ],
     "depn": [
-      "CHEM 404",
-      "MECH 280",
       "ASTR 333",
-      "ENPH 257",
-      "ENPH 259",
+      "ATSC 301",
+      "CHEM 404",
       "ELEC 201",
       "ELEC 204",
       "ELEC 211",
+      "ENPH 257",
+      "ENPH 259",
       "EOSC 450",
       "MATH 217",
-      "ATSC 301",
+      "MECH 280",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -52926,18 +52926,18 @@
       "MATH 184"
     ],
     "depn": [
-      "MECH 280",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
-      "FNH 300",
       "EOSC 250",
       "EOSC 256",
       "EOSC 340",
       "EOSC 354",
       "EOSC 355",
       "EOSC 372",
-      "ATSC 313",
+      "FNH 300",
+      "MECH 280",
       "PHYS 108",
       "PHYS 118",
       "PHYS 330",
@@ -52967,9 +52967,6 @@
       "MATH 184"
     ],
     "depn": [
-      "GEOS 206",
-      "GEOS 408",
-      "MECH 280",
       "ASTR 200",
       "ASTR 333",
       "ENPH 257",
@@ -52978,7 +52975,10 @@
       "EOSC 355",
       "EOSC 372",
       "EOSC 471",
+      "GEOS 206",
+      "GEOS 408",
       "MATH 217",
+      "MECH 280",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -53013,9 +53013,9 @@
       "MATH 184"
     ],
     "depn": [
-      "MECH 280",
       "ASTR 200",
       "ASTR 333",
+      "ATSC 313",
       "BIOL 438",
       "BMEG 210",
       "ENPH 257",
@@ -53027,7 +53027,7 @@
       "EOSC 355",
       "EOSC 372",
       "EOSC 471",
-      "ATSC 313",
+      "MECH 280",
       "PHYS 118",
       "PHYS 158",
       "PHYS 330",
@@ -53053,24 +53053,24 @@
       "MATH 121"
     ],
     "depn": [
+      "ASTR 333",
+      "ATSC 301",
+      "BMEG 220",
+      "ELEC 201",
+      "ELEC 202",
+      "ELEC 204",
+      "ELEC 211",
+      "ENPH 257",
+      "ENPH 259",
+      "EOSC 450",
+      "MANU 261",
+      "MANU 265",
+      "MATH 217",
       "MECH 220",
       "MECH 221",
       "MECH 230",
       "MECH 232",
       "MECH 280",
-      "ASTR 333",
-      "BMEG 220",
-      "MANU 261",
-      "MANU 265",
-      "ENPH 257",
-      "ENPH 259",
-      "ELEC 201",
-      "ELEC 202",
-      "ELEC 204",
-      "ELEC 211",
-      "EOSC 450",
-      "MATH 217",
-      "ATSC 301",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -53099,15 +53099,15 @@
       "PHYS 158"
     ],
     "depn": [
+      "BMEG 200",
+      "BMEG 257",
+      "ENPH 257",
+      "ENPH 259",
       "MECH 220",
       "MECH 221",
       "MECH 230",
       "MECH 232",
       "MECH 280",
-      "BMEG 200",
-      "BMEG 257",
-      "ENPH 257",
-      "ENPH 259",
       "PHYS 209",
       "PHYS 219"
     ]
@@ -53137,21 +53137,21 @@
       "MATH 121"
     ],
     "depn": [
+      "BMEG 230",
+      "CHBE 251",
       "CHEM 404",
+      "CIVL 215",
+      "CIVL 230",
+      "ELEC 342",
+      "ELEC 442",
+      "ENPH 270",
+      "MANU 265",
       "MECH 220",
       "MECH 221",
       "MECH 230",
       "MECH 232",
       "MECH 260",
       "MECH 280",
-      "CIVL 215",
-      "CIVL 230",
-      "BMEG 230",
-      "MANU 265",
-      "ENPH 270",
-      "ELEC 342",
-      "ELEC 442",
-      "CHBE 251",
       "PHYS 216",
       "WOOD 276",
       "WOOD 276"
@@ -53209,6 +53209,7 @@
       "MATH 254"
     ],
     "depn": [
+      "ASTR 406",
       "CHEM 305",
       "CHEM 405",
       "CHEM 407",
@@ -53216,7 +53217,6 @@
       "CHEM 410",
       "MECH 375",
       "MECH 380",
-      "ASTR 406",
       "PHYS 305",
       "PHYS 315",
       "PHYS 403",
@@ -53283,13 +53283,13 @@
       "MATH 223"
     ],
     "depn": [
-      "CPSC 203",
-      "CPSC 302",
-      "CPSC 303",
       "ASTR 205",
       "ASTR 300",
       "ASTR 404",
       "ASTR 407",
+      "CPSC 203",
+      "CPSC 302",
+      "CPSC 303",
       "EOSC 442",
       "PHYS 410"
     ]
@@ -53561,13 +53561,13 @@
     "depn": [
       "ASTR 404",
       "ASTR 407",
+      "ATSC 404",
       "EOSC 450",
       "EOSC 453",
       "MATH 400",
       "MATH 401",
       "MATH 405",
       "MATH 406",
-      "ATSC 404",
       "PHYS 410"
     ]
   },
@@ -54788,14 +54788,14 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=POLI&course=351",
     "desc": "Domestic and international determinants of environmental policy; alternative approaches to environmental protection. The sustainable development paradigm; public opinion and interest group pressures; risk assessment; mandatory, voluntary and market-based policy instruments.",
     "depn": [
-      "SCIE 420",
       "POLI 404",
       "POLI 420",
       "POLI 421",
       "POLI 422",
       "POLI 423",
       "POLI 426",
-      "POLI 429"
+      "POLI 429",
+      "SCIE 420"
     ]
   },
   {
@@ -55038,11 +55038,11 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=POLI&course=380",
     "desc": "An introduction to quantitative methods as utilized in the study of Political Science. Not available for credit in the Faculty of Commerce and Business Administration. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
-      "STAT 300",
-      "STAT 443",
-      "CPSC 444",
       "ASTR 333",
-      "POLI 381"
+      "CPSC 444",
+      "POLI 381",
+      "STAT 300",
+      "STAT 443"
     ]
   },
   {
@@ -55778,6 +55778,7 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=PSYC&course=100",
     "desc": "Introduction to methods and statistics, biopsychology, learning, perception, memory, cognition, motivation, assessment, developmental, personality, clinical, and social psychology.  Credit will be granted for only one of PSYC 100 or PSYC 101 and 102.",
     "depn": [
+      "AUDI 400",
       "FMST 314",
       "FMST 316",
       "PSYC 300",
@@ -55807,8 +55808,7 @@
       "PSYC 358",
       "PSYC 367",
       "PSYC 421",
-      "PSYC 469",
-      "AUDI 400"
+      "PSYC 469"
     ]
   },
   {
@@ -56040,6 +56040,7 @@
       "PSYC 102"
     ],
     "depn": [
+      "ASTR 333",
       "PSYC 218",
       "PSYC 275",
       "PSYC 278",
@@ -56083,8 +56084,7 @@
       "PSYC 421",
       "PSYC 427",
       "PSYC 463",
-      "PSYC 466",
-      "ASTR 333"
+      "PSYC 466"
     ]
   },
   {
@@ -56105,13 +56105,9 @@
       "PSYC 102"
     ],
     "depn": [
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
-      "LING 342",
+      "ASTR 333",
       "CPSC 444",
+      "LING 342",
       "PSYC 303",
       "PSYC 359",
       "PSYC 370",
@@ -56122,7 +56118,11 @@
       "PSYC 427",
       "PSYC 463",
       "PSYC 466",
-      "ASTR 333"
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -56189,12 +56189,12 @@
       "BIOL 140"
     ],
     "depn": [
+      "BIOL 371",
       "PSYC 361",
       "PSYC 363",
       "PSYC 365",
       "PSYC 370",
-      "PSYC 463",
-      "BIOL 371"
+      "PSYC 463"
     ]
   },
   {
@@ -56214,8 +56214,8 @@
       "CHEM 130"
     ],
     "depn": [
-      "PSYC 272",
-      "BIOL 371"
+      "BIOL 371",
+      "PSYC 272"
     ]
   },
   {
@@ -56291,6 +56291,8 @@
       "BIOL 140"
     ],
     "depn": [
+      "ASTR 333",
+      "NSCI 301",
       "PSYC 218",
       "PSYC 275",
       "PSYC 278",
@@ -56330,9 +56332,7 @@
       "PSYC 421",
       "PSYC 427",
       "PSYC 463",
-      "PSYC 466",
-      "ASTR 333",
-      "NSCI 301"
+      "PSYC 466"
     ]
   },
   {
@@ -56347,10 +56347,7 @@
       "PSYC 277"
     ],
     "depn": [
-      "STAT 300",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
+      "ASTR 333",
       "CPSC 444",
       "PSYC 303",
       "PSYC 359",
@@ -56360,7 +56357,10 @@
       "PSYC 427",
       "PSYC 463",
       "PSYC 466",
-      "ASTR 333"
+      "STAT 300",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -56475,15 +56475,15 @@
       "PSYC 260"
     ],
     "depn": [
+      "BIOL 371",
+      "BIOL 459",
+      "BIOL 460",
       "PSYC 361",
       "PSYC 363",
       "PSYC 460",
       "PSYC 461",
       "PSYC 462",
-      "PSYC 466",
-      "BIOL 371",
-      "BIOL 459",
-      "BIOL 460"
+      "PSYC 466"
     ]
   },
   {
@@ -57066,14 +57066,14 @@
       "PSYC 260"
     ],
     "depn": [
+      "BIOL 455",
       "PSYC 361",
       "PSYC 398",
       "PSYC 460",
       "PSYC 461",
       "PSYC 462",
       "PSYC 466",
-      "PSYC 469",
-      "BIOL 455"
+      "PSYC 469"
     ]
   },
   {
@@ -57156,11 +57156,7 @@
       "PSYC 260"
     ],
     "depn": [
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 344",
-      "STAT 443",
+      "ASTR 333",
       "CPSC 444",
       "PSYC 303",
       "PSYC 359",
@@ -57176,7 +57172,11 @@
       "PSYC 418",
       "PSYC 427",
       "PSYC 466",
-      "ASTR 333"
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -57192,9 +57192,9 @@
       "PSYC 102"
     ],
     "depn": [
-      "PSYC 368",
       "BIOL 459",
-      "BIOL 460"
+      "BIOL 460",
+      "PSYC 368"
     ]
   },
   {
@@ -57224,10 +57224,10 @@
       "PSYC 278"
     ],
     "depn": [
-      "PSYC 361",
-      "PSYC 371",
       "BIOL 459",
-      "BIOL 460"
+      "BIOL 460",
+      "PSYC 361",
+      "PSYC 371"
     ]
   },
   {
@@ -58838,36 +58838,7 @@
       "BIOL 140"
     ],
     "depn": [
-      "GEOS 206",
-      "GEOS 400",
-      "GEOS 408",
-      "STAT 200",
-      "STAT 241",
-      "STAT 251",
-      "STAT 301",
-      "CHEM 203",
-      "CHEM 205",
-      "CHEM 208",
-      "CHEM 210",
-      "CHEM 211",
-      "CHEM 223",
-      "CHEM 233",
-      "CHEM 235",
-      "CHEM 250",
-      "CHEM 251",
-      "CHEM 260",
-      "CHEM 312",
-      "CHEM 404",
-      "MICB 201",
-      "MICB 202",
-      "MICB 203",
-      "MICB 353",
-      "CPSC 302",
-      "CPSC 303",
-      "PSYC 270",
-      "PSYC 271",
-      "PSYC 273",
-      "PSYC 277",
+      "APBI 210",
       "ASTR 200",
       "ASTR 333",
       "BIOL 200",
@@ -58885,8 +58856,24 @@
       "BIOL 342",
       "BIOL 351",
       "BIOL 438",
-      "APBI 210",
-      "PCTH 201",
+      "CAPS 301",
+      "CAPS 390",
+      "CAPS 391",
+      "CHEM 203",
+      "CHEM 205",
+      "CHEM 208",
+      "CHEM 210",
+      "CHEM 211",
+      "CHEM 223",
+      "CHEM 233",
+      "CHEM 235",
+      "CHEM 250",
+      "CHEM 251",
+      "CHEM 260",
+      "CHEM 312",
+      "CHEM 404",
+      "CPSC 302",
+      "CPSC 303",
       "ENPH 257",
       "ENPH 259",
       "EOSC 211",
@@ -58901,6 +58888,9 @@
       "EOSC 430",
       "EOSC 450",
       "EOSC 471",
+      "GEOS 206",
+      "GEOS 400",
+      "GEOS 408",
       "MATH 200",
       "MATH 210",
       "MATH 215",
@@ -58913,9 +58903,11 @@
       "MATH 255",
       "MATH 256",
       "MATH 360",
-      "CAPS 301",
-      "CAPS 390",
-      "CAPS 391",
+      "MICB 201",
+      "MICB 202",
+      "MICB 203",
+      "MICB 353",
+      "PCTH 201",
       "PHYS 200",
       "PHYS 203",
       "PHYS 209",
@@ -58929,7 +58921,15 @@
       "PHYS 333",
       "PHYS 354",
       "PHYS 405",
-      "PHYS 438"
+      "PHYS 438",
+      "PSYC 270",
+      "PSYC 271",
+      "PSYC 273",
+      "PSYC 277",
+      "STAT 200",
+      "STAT 241",
+      "STAT 251",
+      "STAT 301"
     ]
   },
   {
@@ -59503,8 +59503,8 @@
       "SOCI 102"
     ],
     "depn": [
-      "CPSC 444",
       "ASTR 333",
+      "CPSC 444",
       "SOCI 418"
     ]
   },
@@ -60881,32 +60881,32 @@
       "SCIE 001"
     ],
     "depn": [
-      "GEOS 403",
-      "FRST 430",
-      "STAT 300",
-      "STAT 305",
-      "STAT 306",
-      "STAT 335",
-      "STAT 344",
-      "STAT 443",
-      "ECON 398",
-      "PHAR 205",
-      "LING 342",
-      "CPSC 417",
-      "CPSC 444",
       "ASTR 333",
       "BIOL 402",
       "BIOL 403",
       "BIOL 404",
       "BIOL 409",
+      "CPSC 417",
+      "CPSC 444",
+      "ECON 398",
+      "EOSC 410",
+      "EOSC 442",
       "FNH 303",
       "FNH 398",
       "FNH 403",
-      "EOSC 410",
-      "EOSC 442",
       "FRE 326",
       "FRE 385",
-      "FRE 474"
+      "FRE 474",
+      "FRST 430",
+      "GEOS 403",
+      "LING 342",
+      "PHAR 205",
+      "STAT 300",
+      "STAT 305",
+      "STAT 306",
+      "STAT 335",
+      "STAT 344",
+      "STAT 443"
     ]
   },
   {
@@ -60920,11 +60920,11 @@
       "DSCI 100"
     ],
     "depn": [
-      "STAT 301",
       "CPSC 417",
       "CPSC 444",
       "DSCI 320",
-      "EOSC 442"
+      "EOSC 442",
+      "STAT 301"
     ]
   },
   {
@@ -60936,11 +60936,11 @@
     "prer": "MATH 11. Or Pre-calculus 11.",
     "preq": [],
     "depn": [
-      "STAT 300",
-      "STAT 305",
-      "LING 342",
+      "ASTR 333",
       "CPSC 444",
-      "ASTR 333"
+      "LING 342",
+      "STAT 300",
+      "STAT 305"
     ]
   },
   {
@@ -60958,19 +60958,19 @@
       "SCIE 001"
     ],
     "depn": [
+      "ASTR 333",
+      "CPSC 340",
+      "CPSC 417",
+      "CPSC 444",
+      "ECON 398",
+      "PHYS 305",
+      "PHYS 403",
       "STAT 300",
       "STAT 305",
       "STAT 306",
       "STAT 335",
       "STAT 344",
-      "STAT 443",
-      "ECON 398",
-      "CPSC 340",
-      "CPSC 417",
-      "CPSC 444",
-      "ASTR 333",
-      "PHYS 305",
-      "PHYS 403"
+      "STAT 443"
     ]
   },
   {
@@ -60988,28 +60988,28 @@
       "SCIE 001"
     ],
     "depn": [
+      "CIVL 301",
+      "CIVL 340",
+      "CIVL 415",
+      "CPSC 340",
+      "CPSC 417",
+      "CPSC 444",
+      "ECON 398",
+      "ELEC 422",
+      "ELEC 431",
+      "EOSC 442",
+      "LING 342",
+      "MINE 350",
+      "MINE 420",
+      "MTRL 460",
+      "PHYS 305",
+      "PHYS 403",
       "STAT 300",
       "STAT 305",
       "STAT 306",
       "STAT 335",
       "STAT 344",
-      "STAT 443",
-      "ECON 398",
-      "MINE 350",
-      "MINE 420",
-      "LING 342",
-      "CPSC 340",
-      "CPSC 417",
-      "CPSC 444",
-      "CIVL 301",
-      "CIVL 340",
-      "CIVL 415",
-      "MTRL 460",
-      "ELEC 422",
-      "ELEC 431",
-      "EOSC 442",
-      "PHYS 305",
-      "PHYS 403"
+      "STAT 443"
     ]
   },
   {
@@ -61073,16 +61073,16 @@
       "MATH 254"
     ],
     "depn": [
-      "STAT 305",
-      "STAT 306",
-      "STAT 443",
-      "LING 342",
       "CPSC 340",
       "ELEC 422",
       "ELEC 431",
+      "LING 342",
       "MATH 303",
       "PHYS 305",
-      "PHYS 403"
+      "PHYS 403",
+      "STAT 305",
+      "STAT 306",
+      "STAT 443"
     ]
   },
   {
@@ -61109,11 +61109,11 @@
       "STAT 302"
     ],
     "depn": [
+      "ELEC 321",
       "STAT 321",
       "STAT 404",
       "STAT 447",
-      "STAT 460",
-      "ELEC 321"
+      "STAT 460"
     ]
   },
   {
@@ -61620,8 +61620,8 @@
       "THTR 205"
     ],
     "depn": [
-      "THTR 405",
-      "THFL 402"
+      "THFL 402",
+      "THTR 405"
     ]
   },
   {
@@ -61631,8 +61631,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=THTR&course=306",
     "desc": "Principles and practice of costume design for the performing arts.",
     "depn": [
-      "THTR 406",
-      "THFL 402"
+      "THFL 402",
+      "THTR 406"
     ]
   },
   {
@@ -61642,8 +61642,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=THTR&course=307",
     "desc": "The optical, distribution, and control systems used in stage lighting design.",
     "depn": [
-      "THTR 407",
-      "THFL 402"
+      "THFL 402",
+      "THTR 407"
     ]
   },
   {
@@ -62279,8 +62279,8 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=UFOR&course=200",
     "desc": "Basic relationships between urban residents' mental and physical well-being and their urban forest environment. [2-0-2]",
     "depn": [
-      "UFOR 400",
-      "CONS 491"
+      "CONS 491",
+      "UFOR 400"
     ]
   },
   {
@@ -63851,6 +63851,15 @@
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=WRDS&course=150",
     "desc": "Writing and reading in disciplines across the academy, focusing on practices that research disciplines share and those that differentiate them. This course is not eligible for Credit/D/Fail grading.",
     "depn": [
+      "AFST 370",
+      "APSC 201",
+      "BMEG 201",
+      "CHBE 201",
+      "CIVL 201",
+      "CIVL 203",
+      "COMM 390",
+      "CPEN 281",
+      "ELEC 281",
       "ENGL 200",
       "ENGL 220",
       "ENGL 221",
@@ -63943,28 +63952,19 @@
       "ENGL 397",
       "ENGL 398",
       "ENGL 399",
+      "ENPH 259",
+      "ENVE 201",
+      "IGEN 201",
+      "MANU 201",
       "MECH 220",
       "MECH 221",
       "MECH 226",
       "MECH 227",
       "MECH 230",
       "MECH 232",
-      "ENVE 201",
-      "AFST 370",
-      "CIVL 201",
-      "CIVL 203",
-      "BMEG 201",
-      "IGEN 201",
-      "MANU 201",
       "MTRL 201",
-      "ENPH 259",
-      "ELEC 281",
       "WRDS 250",
-      "WRDS 360",
-      "COMM 390",
-      "CHBE 201",
-      "CPEN 281",
-      "APSC 201"
+      "WRDS 360"
     ]
   },
   {
@@ -63990,6 +63990,7 @@
     "prer": "Restricted to  students with at least 3rd-year standing.",
     "preq": [],
     "depn": [
+      "AFST 370",
       "ENGL 200",
       "ENGL 220",
       "ENGL 221",
@@ -64076,7 +64077,6 @@
       "ENGL 397",
       "ENGL 398",
       "ENGL 399",
-      "AFST 370",
       "WRDS 250",
       "WRDS 360"
     ]

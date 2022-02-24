@@ -24,6 +24,9 @@ class UBCExplorerScript:
                         if not "depn" in course:
                             course["depn"] = []
                         course["depn"].append(course2["code"])
+        for course in courses_array:
+            if "depn" in course:
+                course["depn"] = sorted(course["depn"])
         return courses_array
 
     # generates final list of course objects to be uploaded to mongo
@@ -31,8 +34,8 @@ class UBCExplorerScript:
 
     def __generate_json_array(self, calendar_data: List[dict]) -> List[dict]:
         courses_array = calendar_data
-        courses_array = [self.__credits_to_int(course) for course in courses_array]
-        return sorted(self.__get_dependencies(courses_array), key=lambda course: course['code'])
+        courses_array = sorted([self.__credits_to_int(course) for course in courses_array], key=lambda course: course['code'])
+        return self.__get_dependencies(courses_array)
 
     def main(self) -> List[dict]:
         scraper = Scraper()
