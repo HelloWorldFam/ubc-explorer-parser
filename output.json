@@ -6881,7 +6881,7 @@
   {
     "dept": "AUDI",
     "code": "AUDI 403",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=AUDI&course=403",
     "name": "Introduction to Neurolinguistics",
     "desc": ""
@@ -16191,7 +16191,7 @@
   {
     "dept": "COHR",
     "code": "COHR 301",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=301",
     "name": "Business and Management Values",
     "desc": "Balancing organizational, personal, and community interests in a global economy. In addition to standard management textbooks and readings, the class will draw from the work of poets, fiction writers, essayists, and social critics. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16205,7 +16205,7 @@
   {
     "dept": "COHR",
     "code": "COHR 302",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=302",
     "name": "Critical Evaluation of Information, Evidence, and Arguments",
     "desc": "Strategies to critically evaluate information relevant to Human Resource Managers. This course will examine common errors in logic, decision biases, and cause and effect relationships. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16262,7 +16262,7 @@
   {
     "dept": "COHR",
     "code": "COHR 307",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=307",
     "name": "Introduction to Organizational Consulting",
     "desc": "Frameworks from the social sciences useful for understanding organizational processes and how to apply these frameworks to particular organizational consulting challenges. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16293,7 +16293,7 @@
   {
     "dept": "COHR",
     "code": "COHR 310",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=310",
     "name": "Industrial Relations in an Era of Globalization",
     "desc": "Comprehensive examination of the Canadian industrial relations system, and its legal foundations, in the context of a global economy. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16307,7 +16307,7 @@
   {
     "dept": "COHR",
     "code": "COHR 311",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=311",
     "name": "Organizational Analysis",
     "desc": "An analysis of organizational structures and intraorganizational processes; effects of organizational factors on individual behaviour. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16321,7 +16321,7 @@
   {
     "dept": "COHR",
     "code": "COHR 401",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=401",
     "name": "Organizational Change",
     "desc": "The tactics and strategies for implementing constructive modifications in organizations. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16335,7 +16335,7 @@
   {
     "dept": "COHR",
     "code": "COHR 402",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=402",
     "name": "Leadership",
     "desc": "Explores the characteristics of effective leadership and examines how to be a better leader. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16349,7 +16349,7 @@
   {
     "dept": "COHR",
     "code": "COHR 403",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=403",
     "name": "Managing Diversity",
     "desc": "Explores the business and legal cases for diversity in the workplace. Examines how to effectively manage a diverse work force. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16363,7 +16363,7 @@
   {
     "dept": "COHR",
     "code": "COHR 404",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=404",
     "name": "Power and Politics",
     "desc": "Examines the sources and consequences of power in the context of different corporate and national cultures. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16391,7 +16391,7 @@
   {
     "dept": "COHR",
     "code": "COHR 406",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=406",
     "name": "International Human Resource Management",
     "desc": "Application of human resource management practices to multinational enterprises. Comparative analysis of national human resource management systems. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16405,7 +16405,7 @@
   {
     "dept": "COHR",
     "code": "COHR 407",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=407",
     "name": "Advanced Organizational Consulting",
     "desc": "Methods and techniques to diagnose and solve a broad range of organizational problems from the perspective of an organizational consultant. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16420,7 +16420,7 @@
   {
     "dept": "COHR",
     "code": "COHR 408",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=408",
     "name": "Organizational Design",
     "desc": "Techniques and approaches for evaluating and adjusting the structures of organization. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16434,7 +16434,7 @@
   {
     "dept": "COHR",
     "code": "COHR 409",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=409",
     "name": "Creativity and Innovation",
     "desc": "Techniques and approaches to managing creativity and innovation in organizations. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16448,7 +16448,7 @@
   {
     "dept": "COHR",
     "code": "COHR 410",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=410",
     "name": "Knowledge Management",
     "desc": "Techniques and approaches to managing knowledge and learning in organizations. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16462,7 +16462,7 @@
   {
     "dept": "COHR",
     "code": "COHR 411",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=411",
     "name": "Managing and Building Teams",
     "desc": "Techniques and approaches for building effective teams, handling decision-making in teams, creating reward structures, and developing appropriate leadership models. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16476,7 +16476,7 @@
   {
     "dept": "COHR",
     "code": "COHR 412",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COHR&course=412",
     "name": "Advanced Topics in Organizational Behaviour",
     "desc": "Understanding, critiquing, and analyzing behaviour and social processes in organizations. This course focuses on provocative and current topics that could not be covered in depth in the introductory course. This course is not eligible for Credit/D/Fail grading. [3-0]",
@@ -16933,7 +16933,7 @@
   {
     "dept": "COMM",
     "code": "COMM 320",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=320",
     "name": "Foundations in Accounting I",
     "desc": "Preparation of financial statements and use of financial information contained in financial statements to make better decisions. For Master of Management - Dual Degree Option students only. This course is not eligible for Credit/D/Fail grading."
@@ -16941,7 +16941,7 @@
   {
     "dept": "COMM",
     "code": "COMM 321",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=321",
     "name": "Organizational Behaviour",
     "desc": "Effects of individual and group behaviour on organizational processes and outcomes. Application of relevant frameworks from the social sciences to particular organizational situations. For Master of Management - Dual Degree Option students only. This course is not eligible for Credit/D/Fail grading."
@@ -17488,7 +17488,7 @@
   {
     "dept": "COMM",
     "code": "COMM 420",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=420",
     "name": "Marketing",
     "desc": "Basic considerations affecting the domestic and international marketing of goods and services. Analytical frameworks and techniques that are used to guide marketing strategy decisions. For Master of Management - Dual Degree Option students only. This course is not eligible for Credit/D/Fail grading."
@@ -17496,7 +17496,7 @@
   {
     "dept": "COMM",
     "code": "COMM 421",
-    "cred": null,
+    "cred": 1.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMM&course=421",
     "name": "Introductory Finance",
     "desc": "Introduces the basic principles of financial valuation, including the time-value of money and the risk/return tradeoff. Develops tools for the quantitative analysis of corporate and/or individual financing and saving decisions, and of capital budgeting decisions. For Master of Management - Dual Degree Option students only. This course is not eligible for Credit/D/Fail grading."
@@ -31784,7 +31784,7 @@
   {
     "dept": "FNH",
     "code": "FNH 340",
-    "cred": null,
+    "cred": 4.5,
     "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=FNH&course=340",
     "name": "Food Theory and Applications",
     "desc": "Principles of food preparation based on the physical and chemical properties of food, and experimental and practical applications to food preparation. This course is not eligible for Credit/D/Fail grading. 1.5-3-0",

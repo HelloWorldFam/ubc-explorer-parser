@@ -24,7 +24,7 @@ class Scraper:
             if details.name == "dt":
                 new_course["dept"] = split[0]
                 new_course["code"] = f"{split[0]} {split[1]}"
-                new_course["cred"] = self.__credits_to_int(split[2][1:-1])  # (3) -> 3, (1-6) -> 1-6
+                new_course["cred"] = self.__credits_to_number(split[2][1:-1])  # (3) -> 3, (1-6) -> 1-6
                 new_course["link"] = f"{self.courses_url}&dept={split[0]}&course={split[1]}"
                 new_course["name"] = details.find("b").text
             elif details.name == "dd":
@@ -54,8 +54,14 @@ class Scraper:
     def __strip(self, text: str):
         return re.sub(r"[ ]{2,}", " ", text).strip()
 
-    def __credits_to_int(self, creds: str):
-        return int(creds) if creds.isnumeric() else None
+    def __credits_to_number(self, creds: str):
+        if creds.isnumeric():
+            return int(creds)
+        try:
+            num = float(creds)
+            return num
+        except:
+            return None
         
 
     def main(self) -> List[dict]:
