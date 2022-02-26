@@ -26,6 +26,7 @@ class Scraper:
                 new_course["code"] = f"{split[0]} {split[1]}"
                 new_course["cred"] = split[2][1:-1]  # (3) -> 3, (1-6) -> 1-6
                 new_course["link"] = f"{self.courses_url}&dept={split[0]}&course={split[1]}"
+                new_course["name"] = details.find("b").text
             elif details.name == "dd":
                 new_course["desc"] = text.split("\n")[0].strip()
 
@@ -59,6 +60,7 @@ class Scraper:
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(self.__process_dept, list(dept_links))
+            # results = executor.map(self.__process_dept, [list(dept_links)[40]])
             for r in results:
                 result += r
 
