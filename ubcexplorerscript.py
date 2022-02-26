@@ -17,7 +17,6 @@ class UBCExplorerScript:
                     if not "depn" in to_update:
                         to_update["depn"] = set()
                     to_update["depn"].add(course["code"])
-                
 
         for course in courses_map.values():
             if "depn" in course:
