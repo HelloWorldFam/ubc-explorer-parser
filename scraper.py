@@ -62,7 +62,6 @@ class Scraper:
             return num
         except:
             return None
-        
 
     def main(self) -> List[dict]:
         html = urllib.request.urlopen(self.base_url)
